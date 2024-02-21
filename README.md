@@ -56,7 +56,6 @@ Welcome to our entry to the O'Reilly Winter 2024 Architectural Katas. The aim of
 ## References
 
 - [Using logs to build a solid data infrastructure (or: why dual writes are a bad idea)](https://martin.kleppmann.com/2015/05/27/logs-for-data-infrastructure.html)
-- [Architectural Katas 2020 Fall - Group ArchColider](https://github.com/ldynia/archcolider)
 - [C4 Model](https://c4model.com/)
 - [EventStorming](https://www.eventstorming.com/)
 - [Sky flow data privacy vault via a simple API](https://www.skyflow.com/)  
