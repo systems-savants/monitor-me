@@ -50,14 +50,13 @@ Welcome to our entry to the O'Reilly Winter 2024 Architectural Katas. The aim of
 
 ## Resources <a href='#' id='resources'></a>
 
-- [2021 Architecture Katas Presentation](assets/docs/2021-fall-kick-off.pdf)
-- [2021 Kata Participating Teams Info](assets/docs/participating-teams-info-katas-fall-2021.pdf)
+- [2024 O'Reilly Architecture Katas Presentation](assets/docs/2024_oreilly_architectural_katas.pdf)
+- [Carelon Architectural Katas Winter 2024](assets/docs/Carelon-Architectual-Katas-Winter-2024.pdf)
 
 ## References
 
 - [Using logs to build a solid data infrastructure (or: why dual writes are a bad idea)](https://martin.kleppmann.com/2015/05/27/logs-for-data-infrastructure.html)
 - [Architectural Katas 2020 Fall - Group ArchColider](https://github.com/ldynia/archcolider)
-- [Architectural Kata Spring 2021 - The Mad Katas](https://github.com/tekiegirl/TheMadKatas) (Jacqui Read's previous kata entry)
 - [C4 Model](https://c4model.com/)
 - [EventStorming](https://www.eventstorming.com/)
 - [Sky flow data privacy vault via a simple API](https://www.skyflow.com/)  
