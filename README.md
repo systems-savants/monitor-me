@@ -1,6 +1,6 @@
 # Architectural Katas Winter 2024 - Systems Savants
 
-<img src="assets/images/gold-medal.png" width="150" height="150"/> **1st Place Winners of the O'Reilly Architecture Katas Winter 2024**
+[//]: <img src="assets/images/gold-medal.png" width="150" height="150"/> **1st Place Winners of the O'Reilly Architecture Katas Winter 2024**
 
 > This documentation repository is hosted on GitHub here: [https://github.com/systems-savants/monitor-me](https://github.com/systems-savants/monitor-me)
 
