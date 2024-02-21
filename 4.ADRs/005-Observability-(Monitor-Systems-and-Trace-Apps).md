@@ -2,7 +2,7 @@
 
 ---
 
-# Architecture Decision Records
+# Observability (Monitor Systems and Trace Apps)
 
 Date: 2024-02-15
 

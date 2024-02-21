@@ -2,7 +2,7 @@
 
 ---
 
-# Architecture Decision Records
+# System Approach
 
 Date: 2024-02-15
 

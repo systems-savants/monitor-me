@@ -2,8 +2,7 @@
 
 ---
 
-# Architecture Decision Records
-
+# Use API Gateway in self-hosted mode
 Date: 2024-02-15
 
 ## Status

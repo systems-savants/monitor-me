@@ -2,7 +2,7 @@
 
 ---
 
-# Architecture Decision Records
+# Interoperability (Data Exchange)
 
 Date: 2024-02-15
 

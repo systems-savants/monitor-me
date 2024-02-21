@@ -2,7 +2,7 @@
 
 ---
 
-# Architecture Decision Records
+# Use of Infrastructure as Code (IaC)
 
 Date: 2024-02-15
 

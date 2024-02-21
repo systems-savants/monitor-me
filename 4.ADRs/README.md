@@ -5,7 +5,7 @@
 
 # Architecture Decision Records
 
-[000 ADRs Template](000-ADRs-Template)
+[000 ADRs Template](000-ADRs-Template.md)
 
 [001 Use K8s with containerize microservice architecture style](001-Use-K8s-with-containerize-microservice-architecture-style.md)
 

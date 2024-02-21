@@ -2,7 +2,7 @@
 
 ---
 
-# Architecture Decision Records
+# Deployment Strategy
 
 Date: 2024-02-15
 

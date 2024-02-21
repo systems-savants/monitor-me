@@ -2,7 +2,7 @@
 
 ---
 
-# Architecture Decision Records
+# Dedicated Health-Check endpoint for services
 
 Date: 2024-02-15
 

@@ -2,7 +2,7 @@
 
 ---
 
-# Architecture Decision Records
+# Hosting Platform On Prem - CapEx
 
 Date: 2024-02-15
 

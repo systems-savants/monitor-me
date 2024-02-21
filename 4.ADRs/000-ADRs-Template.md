@@ -2,13 +2,13 @@
 
 ---
 
-# Architecture Decision Records
+# Architecture Decision Records (Template)
 
 Date: 2024-02-15
 
 ## Status
 
-Accepted
+Options: Proposed, Accepted, and Superseded
 
 ## Context
 

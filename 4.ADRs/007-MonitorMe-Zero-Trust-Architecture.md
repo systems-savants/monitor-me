@@ -2,7 +2,7 @@
 
 ---
 
-# Architecture Decision Records
+# MonitorMe Zero Trust Architecture
 
 Date: 2024-02-15
 

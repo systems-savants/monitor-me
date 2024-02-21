@@ -2,7 +2,7 @@
 
 ---
 
-# Architecture Decision Records
+# Notificaitons Sender to Handle several notification channels
 
 Date: 2024-02-15
 
