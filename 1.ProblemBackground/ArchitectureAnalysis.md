@@ -35,7 +35,8 @@ The following are a bedrock of architecture characteristics. They may not affect
 
 Note that Configurability was considered for patients.
 
-![CharacteristicsVennDiagram](../assets/images/CharacteristicsVennDiagram.png)
+![Architectural Characteristics](../assets/images/Architectural-characteristics-WS.png)
+
 ---
 
 ## Architectural Quanta
@@ -60,7 +61,7 @@ Of the characteristics identified above, do they apply to the whole system or ar
 
 This diagram illustrates that although there are many shared characteristics, even those that are shared are shared by domains that do not themselves overlap. This leads us to a distributed architecture with deployment, backup and disaster recovery needing to take into account these characteristics. These characteristics may also inform further granularity of these domains.
 
-![Architectural Characteristics](../assets/images/Architectural-characteristics-WS.png)
+![CharacteristicsVennDiagram](../assets/images/CharacteristicsVennDiagram.png)
 
 ---
 
