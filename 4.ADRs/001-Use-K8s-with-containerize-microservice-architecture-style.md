@@ -20,26 +20,19 @@ The architectural decisions made on this project must be recorded in a useful an
 ## Decision
 We will use the microservice architecture style for backend services in the MonitorMe system. Microservices will be containerized using Docker.These days, backend services for software systems similar to the MonitorMe system commonly use a microservice architecture. In itself, this is not a reason for adopting the microservice style. However, positive consequences of the wide use of microservices contribute to this decision:
 
-We will use Architecture Decision Records, [as described by Michael Nygard](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions).
-
 ## Consequences
 A nice benefit of the microservice style is flexibility, which enables evolution. This benefit is two-fold:
 At deploy- and run-time: flexibility to employ service-specific security, data replication, persistence, and monitoring configurations; flexibility to use different scalability mechanisms for each service.
 At development-time: flexibility to use different technologies, patterns, frameworks, libraries, data sources, and other resources in each service.
 
 **Positive:**
-large number of tools and frameworks for microservice development, as well as for monitoring, logging and distributed tracing.
-increasing number of devloper familiar with the style and respective dev tools and frameworks.
-support for containerized microservices widely available in public forums.
+-large number of tools and frameworks for microservice development, as well as for monitoring, logging and distributed tracing.
+-increasing number of developer familiar with the style and respective dev tools and frameworks.
+-support for containerized microservices widely available in public forums.
 Nevertheless, there are important tradeoffs involved in using the microservice style.
 
-- Easy to access decisions.
-- Easy to find out why a decision was made.
-- Quick to learn how to create and use ADRs.
-- 
-
 **Rejected alternatives and rationale:**
-Serverless: it would be perfectly feasible to create MonitorMe services using FaaS (AWS Lambda for example) which could stream vital sign.However, requirement is  MonitorMe will be deployed as an on-premises system and Each physical hospital location will have its own installation of the complete MonitorMe system.On top of that it just required sallow cloud intregration .
+Serverless: it would be perfectly feasible to create MonitorMe services using FaaS (AWS Lambda for example) which could stream vital sign.However, requirement is  MonitorMe will be deployed as an on-premises and Each physical hospital location will have its own installation of the complete MonitorMe system.On top of that it just required sallow cloud intregration.
 
 **Negative:**
 The challenge with increased flexibility is the need to establish some design guidelines and design standards for microservice development. Since it's new medical patient monitoring system it should to define and enforce (via governance mechanisms) a basic reference architecture (with room for evolution). 
@@ -52,7 +45,7 @@ MonitorMe a team of developers familiar with microservice development, microserv
 Spring Boot
 Docker
 Kubernetes
-Spring Cloud AWS
+Spring Boot
 The team will also need some basic knowledge around tools for log consolidation, monitoring, and distributed tracing for microservice
 
 - Need to on-board everyone on the project to understand ADRs.
@@ -60,7 +53,6 @@ The team will also need some basic knowledge around tools for log consolidation,
 **Risks:**
 
 
-- Someone not familiar with ADRs may not know where to find them or that they exist.
 
 **Bonus Features:**
 
