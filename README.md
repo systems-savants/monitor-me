@@ -6,7 +6,7 @@
 
 Welcome to our entry to the O'Reilly Winter 2024 Architectural Katas. The aim of this documentation git repository is to communicate our design for the problem described, for a stakeholder and development team audience.
 
-<img src="assets/images/logo_png.png" alt="The Systems Savants logo" style="zoom:50%;" height="250" width="250" />
+<img src="assets/images/Logo_png.png" alt="The Systems Savants logo" style="zoom:50%;" height="250" width="250" />
 
 ## Members
 - Gibran Castillo [[LinkedIn](https://www.linkedin.com/in/gibran-castillo/)]
