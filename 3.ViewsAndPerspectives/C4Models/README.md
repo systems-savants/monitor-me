@@ -16,6 +16,7 @@ This diagram shows how the main users of MonitorMe interact with the system, and
 
 ![Context Diagram](assets/Diagrams/MonitorMe C4 model - C1-ContextDiagram.png)
 assets/Diagrams/MonitorMe C4 model - C1-ContextDiagram.png" alt="C1-ContextDiagram" style="zoom:50%;" height="250" width="250" />
+<img src="./assets/images/Diagrams/MonitorMe C4 model - C2-Container-Simplified.png" alt="C1-ContextDiagram" style="zoom:50%;" height="250" width="250" />
 
 ## Container Diagram (Level 2)
 
