@@ -21,7 +21,10 @@ This type of data store is optimal for data that is not highly connected. The ne
 
 Relational is an option for data that is not highly connected and not involved in analytics.
 
+[ADR: 013-Postgre-SQL-for-Data-Storage.md](../4.ADRs/013-Postgre-SQL-for-Data-Storage.md)
+
 <img src="../assets/images/relational.png" width="150" height="150"/>
+
 
 ### Document
 
@@ -35,7 +38,7 @@ Analysis of the data required for MonitorMe may show that a document store would
 
 Binary Large Object storage is optimised for unstructured binary files that are large in size, e.g. videos and images. This would be the optimal type of storage for static content for MonitorMe.
 
-[ADR: 009 We-will-use-a-blob-storage-for-static-content](../4.ADRs/009-We-will-use-a-blob-storage-for-static-content.md)
+
 
 <img src="../assets/images/binary-data.png" width="150" height="150"/>
 
