@@ -13,11 +13,11 @@ Accepted
 ## Context
 Here we are trying to find out the architectural charcteristics of the system which will drive our design decision.
 Implicit Characteristics
--High Availibility  -  system needs to be available all the times as the medical professional need to monitor patients vitals and take decision based on them.
--Interoperability - should be able to interact (impot/export) with StayHealthyInc's other software products.
--Performance - Since the devices emit data continuosly and our requirement states the average response time of 1 second.
--Deployability -  We are proposing a micro service architecture with a service for each device ,being able to deploy the whole system seemlessly is important. 
--Data Intergrity -  Raw data coming from the devices and the data thats displayed on the Nurse's screen should always be accurate.Process of consolidation should not affect data integrity in any way.
+<br>-High Availibility  -  system needs to be available all the times as the medical professional need to monitor patients vitals and take decision based on them.
+<br>-Interoperability - should be able to interact (impot/export) with StayHealthyInc's other software products.
+<br>-Performance - Since the devices emit data continuosly and our requirement states the average response time of 1 second.
+<br>-Deployability -  We are proposing a micro service architecture with a service for each device ,being able to deploy the whole system seemlessly is important. 
+<br>-Data Intergrity -  Raw data coming from the devices and the data thats displayed on the Nurse's screen should always be accurate.Process of consolidation should not affect data integrity in any way.
 
 Explicit Characteristics
 <br>-Security
@@ -35,7 +35,7 @@ Both microservices and event driven architecture are good choices for scalabilit
 
 **Positive:**
 
-- Scalability -  As the problem statement suggests that StayHealthy Inc might add aditional devices to this monitoring system in the future ,scalability is important.
+- Scalability -  As the problem statement suggests that StayHealthy Inc might add aditional devices to this monitoring system in the future, scalability is important.
 - Resilience -  Requirement mention that the system should stay operational in the event of any device failures.
 
 **Risks:**
