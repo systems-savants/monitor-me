@@ -15,17 +15,17 @@ A **System Context** diagram provides a starting point, showing how the software
 This diagram shows how the main users of MonitorMe interact with the system, and the other systems that MonitorMe system interacts with.
 
 **Simplified Context Diagram:**
-![MonitorMe C4 model - C1-ContextDiagram](../../assets/images/Diagrams/MonitorMe C4 model - C1-ContextDiagram.png)
+![MonitorMe C4 model - C1-ContextDiagram](../../assets/images/Diagrams/MonitorMe_C4_model-C1-ContextDiagram.png)
 
 ## Container Diagram (Level 2)
 
 A Container diagram zooms into the software system in scope, showing the high-level technical building blocks.[^](#exp1) The following diagram breaks down the MonitorMe system into groups of related functionality, or domains, and shows how they interact with each other and how the users of the system interact with the functionality.
 
 **Simplified Container Diagram:**
-![MonitorMe C4 model - C2-Container-Simplified](../../assets/images/Diagrams/MonitorMe C4 model - C2-Container-Simplified.png)
+![MonitorMe C4 model - C2-Container-Simplified](../../assets/images/Diagrams/MonitorMe_C4_model-C2-Container-Simplified.png)
 
 **(Microservices) Expanded Containter Diagram:**
-![MonitorMe C4 model - C2-Container-Expanded](../../assets/images/Diagrams/MonitorMe C4 model - C2-Container-Expanded.png)
+![MonitorMe C4 model - C2-Container-Expanded](../../assets/images/Diagrams/MonitorMe_C4_model-C2-Container-Expanded.png)
 
 ## Component Diagrams (Level 3)
 
