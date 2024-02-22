@@ -20,10 +20,10 @@ Implicit Characteristics
 -Data Intergrity -  Raw data coming from the devices and the data thats displayed on the Nurse's screen should always be accurate.Process of consolidation should not affect data integrity in any way.
 
 Explicit Characteristics
--Security
--Usability
--Maintainability
--Observability
+<br>-Security
+<br>-Usability
+<br>-Maintainability
+<br>-Observability
 
 
 ## Decision
