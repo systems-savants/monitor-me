@@ -11,6 +11,7 @@ Date: 2024-02-15
 Accepted
 
 ## Context
+For Monitoring Vital Signs, the most crucial is part is to record the patient's data in contextual form. Context awareness enables models and creates opportunities for data integration, aggregation, sharing and analysis. 
 
 The architectural decisions made on this project must be recorded in a useful and comprehensible manner.
 
