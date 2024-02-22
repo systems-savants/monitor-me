@@ -17,6 +17,7 @@ Managing data in distributed form separate concerns and make more cost-effective
 The architectural decisions made on this project must be recorded in a useful and comprehensible manner.
 
 ## Decision
+Nurse station, Analyzer, integration   must treat data as self-contained product. Each application should define shape, interfaces and maintenance and refresh cycle. Domain data shared with downstream processes through service level agreement
 
 We will use Architecture Decision Records, [as described by Michael Nygard](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions).
 
