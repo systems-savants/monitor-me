@@ -42,7 +42,6 @@ Welcome to our entry to the O'Reilly Winter 2024 Architectural Katas. The aim of
 
 [Views & Perspectives](3.ViewsAndPerspectives/README.md)
 
-- [Event Storming](3.ViewsAndPerspectives/EventStorming/README.md)
 - [Scenario Flow Diagrams](3.ViewsAndPerspectives/scenarios/README.md)
 - [C4 Models](3.ViewsAndPerspectives/C4Models/README.md)
 - [Communication View](3.ViewsAndPerspectives/CommunicationView/README.md)
