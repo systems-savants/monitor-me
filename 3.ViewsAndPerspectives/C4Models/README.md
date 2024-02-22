@@ -16,7 +16,7 @@ This diagram shows how the main users of MonitorMe interact with the system, and
 
 **Simplified Context Diagram:**
 
-![MonitorMe_C4_model-C1-ContextDiagram](../../assets/images/Diagrams/MonitorMe_C4_model-C1-ContextDiagram.png)
+![MonitorMe_C4_model-C1-ContextDiagram](../assets/images/Diagrams/MonitorMe_C4_model-C1-ContextDiagram.png)
 
 ## Container Diagram (Level 2)
 
@@ -24,11 +24,11 @@ A Container diagram zooms into the software system in scope, showing the high-le
 
 **Simplified Container Diagram:**
 
-![MonitorMe_C4_model-C2-Container-Simplified](../../assets/images/Diagrams/MonitorMe_C4_model-C2-Container-Simplified.png)
+![MonitorMe_C4_model-C2-Container-Simplified](../assets/images/Diagrams/MonitorMe_C4_model-C2-Container-Simplified.png)
 
 **(Microservices) Expanded Containter Diagram:**
 
-![MonitorMe_C4_model-C2-Container-Expanded](../../assets/images/Diagrams/MonitorMe_C4_model-C2-Container-Expanded.png)
+![MonitorMe_C4_model-C2-Container-Expanded](../assets/images/Diagrams/MonitorMe_C4_model-C2-Container-Expanded.png)
 
 ## Component Diagrams (Level 3)
 
