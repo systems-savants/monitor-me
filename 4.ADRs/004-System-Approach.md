@@ -11,7 +11,7 @@ Date: 2024-02-22
 Accepted
 
 ## Context
-Here we are trying to find out the architectural charcteristics of the system which will drive our design decision.
+Here we are trying to find out the architectural charcteristics of the system which will drive our design decision.<br>
 Implicit Characteristics
 <br>-High Availibility  -  system needs to be available all the times as the medical professional need to monitor patients vitals and take decision based on them.
 <br>-Interoperability - should be able to interact (impot/export) with StayHealthyInc's other software products.
