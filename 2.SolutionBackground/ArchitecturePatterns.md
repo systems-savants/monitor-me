@@ -20,7 +20,7 @@ The [key architectural characteristics](../1.ProblemBackground/ArchitectureAnaly
 
 The above characteristics are highlighted below in green, with data integrity, above, not included in the matrix below. Data integrity will be a key architecture characteristic of the [data store selected](DataStore.md), along with the interface to this data store.
 
-![architectural-styles](../assets/images/architectural-styles-marked.png)
+![architectural-styles](../assets/images/architectural-styles-MonitorMe.png)
 
 [original comparison matrix from [DeveloperToArchitect.com](https://www.developertoarchitect.com/downloads/worksheets.html)]
 
