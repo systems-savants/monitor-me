@@ -3,7 +3,7 @@
 ---
 
 # Use API Gateway in self-hosted mode
-Date: 2024-02-15
+Date: 2024-02-22
 
 ## Status
 
@@ -11,31 +11,21 @@ Accepted
 
 ## Context
 
-The architectural decisions made on this project must be recorded in a useful and comprehensible manner.
+Here we were looking for a component that will be the one stop solution for any data coming in or going out of the MonitorMe ecosystem.
+Data going out of MonitorMe would be snpshot uploads to MyMedicalData.
+Alerts and push notifications going out to StayHealty Mobile App.
+Incoming data in future could be from MyMedicalData or from MonitorThem
 
 ## Decision
 
-We will use Architecture Decision Records, [as described by Michael Nygard](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions).
+We decided to with API gateway as it provides a secure and real-time communication option without having to provision or manage any servers to manage connections or large-scale data exchanges.
 
 ## Consequences
 
 **Positive:**
 
-- Easy to access decisions.
-- Easy to find out why a decision was made.
-- Quick to learn how to create and use ADRs.
+- Ease of setup and scalability.
 
-**Negative:**
-
-- Need to on-board everyone on the project to understand ADRs.
-
-**Risks:**
-
-- Someone not familiar with ADRs may not know where to find them or that they exist.
-
-**Bonus Features:**
-
-- This format will be something we use in other projects to improve architecture decisions governance!
 
 ---
 

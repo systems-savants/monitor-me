@@ -4,39 +4,44 @@
 
 # System Approach
 
-Date: 2024-02-15
+Date: 2024-02-22
 
 ## Status
 
 Accepted
 
 ## Context
+Here we are trying to find out the architectural charcteristics of the system which will drive our design decision.
+Implicit Characteristics
+-High Availibility  -  system needs to be available all the times as the medical professional need to monitor patients vitals and take decision based on them.
+-Interoperability - should be able to interact (impot/export) with StayHealthyInc's other software products.
+-Performance - Since the devices emit data continuosly and our requirement states the average response time of 1 second.
+-Deployability -  We are proposing a micro service architecture with a service for each device ,being able to deploy the whole system seemlessly is important. 
+-Data Intergrity -  Raw data coming from the devices and the data thats displayed on the Nurse's screen should always be accurate.Process of consolidation should not affect data integrity in any way.
 
-The architectural decisions made on this project must be recorded in a useful and comprehensible manner.
+Explicit Characteristics
+-Security
+-Usability
+-Maintainability
+-Observability
+
 
 ## Decision
 
-We will use Architecture Decision Records, [as described by Michael Nygard](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions).
+Based on the requirements and our analyses we decided to go with Microservices and an event driven architecture.
+Both microservices and event driven architecture are good choices for scalability ,fault tolerance (High Availibility) .
 
 ## Consequences
 
 **Positive:**
 
-- Easy to access decisions.
-- Easy to find out why a decision was made.
-- Quick to learn how to create and use ADRs.
-
-**Negative:**
-
-- Need to on-board everyone on the project to understand ADRs.
+- Scalability -  As the problem statement suggests that StayHealthy Inc might add aditional devices to this monitoring system in the future ,scalability is important.
+- Resilience -  Requirement mention that the system should stay operational in the event of any device failures.
 
 **Risks:**
 
-- Someone not familiar with ADRs may not know where to find them or that they exist.
+- Since we are proposing multiple microservices each one catering to a seperate device ,automated deployments is a must.
 
-**Bonus Features:**
-
-- This format will be something we use in other projects to improve architecture decisions governance!
 
 ---
 
