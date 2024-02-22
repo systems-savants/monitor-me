@@ -14,7 +14,7 @@ The following diagrams use the standard C4 notation.
 A **System Context** diagram provides a starting point, showing how the software system in scope fits into the world around it.[^](#expl) 
 This diagram shows how the main users of MonitorMe interact with the system, and the other systems that MonitorMe system interacts with.
 
-![Context Diagram](../../assets/Diagrams/MonitorMe C4 model - C1-ContextDiagram.png)
+![Context Diagram](assets/Diagrams/MonitorMe C4 model - C1-ContextDiagram.png)
 
 ## Container Diagram (Level 2)
 
