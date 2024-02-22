@@ -8,7 +8,7 @@ Date: 2024-02-15
 
 ## Status
 
-Accepted
+Proposed
 
 ## Context
 StayHealthy, Inc. is now expanding into the medical monitoring market with a new medical patient monitoring system for hospitals that monitors a patient's vital signs using proprietary medical devices. The overarching architecture style for the patient monitoring system should be simple, easy to establish, and resilient. A considerable portion of computing and network resources are involved in processing, storing, and retrieving data. it also brings problems like fault, latency, and performance issues. As it deals with patient safety, an IT administration is required to ensure effective and efficient responses in the event of system failure. also, architecture should be adaptable to expand and scale enough to further process the large volume of data.
@@ -38,7 +38,7 @@ Nevertheless, there are important tradeoffs involved in using the microservice s
 - Quick to learn how to create and use ADRs.
 - 
 
-Rejected alternatives and rationale:
+**Rejected alternatives and rationale:**
 Serverless: it would be perfectly feasible to create MonitorMe services using FaaS (AWS Lambda for example) which could stream vital sign.However, requirement is  MonitorMe will be deployed as an on-premises system and Each physical hospital location will have its own installation of the complete MonitorMe system.On top of that it just required sallow cloud intregration .
 
 **Negative:**
