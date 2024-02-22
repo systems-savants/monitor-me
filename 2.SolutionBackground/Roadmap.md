@@ -11,9 +11,8 @@ The following roadmap assumes MonitorMe is already in existence. If both systems
 
 The following diagram shows the conceptual design of the MonitorMe system, expected to be in existence:
 
-![ff-archcolider-services](../assets/images/ff-archcolider_Overview_v1.png)
+![monitor-me-services](../assets/images/Monitorme_Overview_v1.png)
 
-[image source: [Archcolider GitHub](https://github.com/ldynia/archcolider/blob/master/img/FF_Overview_v1.PNG)]
 
 ## First Iteration
 
