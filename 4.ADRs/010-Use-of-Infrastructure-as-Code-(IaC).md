@@ -18,9 +18,9 @@ we can make good use of infrastructure as code languages and tool assisted gener
 The architectural decisions made on this project must be recorded in a useful and comprehensible manner.
 
 ## Decision
-Infrastructure as Code to build infrastructure and  prevent drift and allows us to run architectural fitness functions on the specification instead of the run-time environment. This in turn allows us to test many scenarios without actually setting the deployment of the infrastructure in motion. We are guaranteed to run the tests against what will in fact be deployed when we decide to execute the specification. Therefore, creating a very agile and evolvable ecosystem.
+Infrastructure as Code to build infrastructure and prevent drift and allows us to run architectural fitness functions on the specification instead of the run-time environment. This in turn allows us to test many scenarios without actually setting the deployment of the infrastructure in motion. We are guaranteed to run the tests against what will in fact be deployed when we decide to execute the specification. Therefore, creating a very agile and evolvable ecosystem.
 
-We can recommend Terra-form because it's declarative means what you want to build rather than how, it's multi vendor and also support kubernetes cluster to rolloout container to deploy micro service features that assist the infrastructure engineer using visual designers but also checks on valid configurations. 
+We can recommend Terraform to deploy kubernetes cluster, since it's declarative means what you want to build rather than how, it's multi vendor and also support kubernetes cluster to rolloout container to deploy micro service features that assist the infrastructure engineer using visual designers but also checks on valid configurations. 
 
 We will use Architecture Decision Records, [as described by Michael Nygard](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions).
 
