@@ -18,7 +18,7 @@ For Monitoring Vital Signs, the most crucial is part is to record the patient's 
 ## Decision
 As MonitorMe required near-real time usage consideration to analyze vital sings constantly, by utilizing resource-oriented read optimization approaching using sharding technique with patient shard-key data could be analyzed more efficiently,Shared services are stateful services and capable to scale horizontally so patients can be evenly distributed on per nurse station.
 
-Context awareness enables models and creates data integration, aggregation and sharing opportunities. So making data self-contained information in different viewpoints addresses the concerns of managing data. Also making data distributed allows cross-domain data validation or enrichment and exchange
+Context awareness enables models for MyMedicalData/MonitorThem creates data integration, aggregation and sharing. So making data self-contained information in different viewpoints addresses the concerns of managing data. Also making data distributed allows cross-domain data exchange.
 
 ## Consequences
 need to think what might make for good shared key for more common queries 
