@@ -38,8 +38,7 @@ Both microservices and event driven architecture are good choices for scalabilit
 - Scalability -  As the problem statement suggests that StayHealthy Inc might add aditional devices to this monitoring system in the future, scalability is important.
 - Resilience -  Requirement mention that the system should stay operational in the event of any device failures.
 
-**Risks:**
-
+**Suggestion:**
 - Since we are proposing multiple microservices each one catering to a seperate device ,automated deployments is a must.
 
 
