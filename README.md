@@ -6,11 +6,11 @@
 
 Welcome to our entry to the O'Reilly Winter 2024 Architectural Katas. The aim of this documentation git repository is to communicate our design for the problem described, for a stakeholder and development team audience.
 
-<img src="assets/images/TheSystemsSavants.png" alt="The Systems Savants logo" style="zoom:50%;" />
+<img src="assets/images/syst_savants_logo.png" alt="The Systems Savants logo" style="zoom:50%;" />
 
 ## Members
 - Gibran Castillo [[LinkedIn](https://www.linkedin.com/in/gibran-castillo/)]
-- Vishal Gamji [[LinkedIn](https://www.linkedin.com/in/pending/)]
+- Vishal Gamji [[LinkedIn](https://www.linkedin.com/in/vishalgamji/)]
 - Harshada Kandalgaonkar [[LinkedIn](https://www.linkedin.com/in/harshada-kandalgaonkar/)]
 - Subodh Gupta [[LinkedIn](https://www.linkedin.com/in/pending/)]
 
@@ -25,7 +25,7 @@ Welcome to our entry to the O'Reilly Winter 2024 Architectural Katas. The aim of
 - [Business Goals, Drivers & Requirements](1.ProblemBackground/BusinessGoalsDriversAndRequirements.md)
 - [Stakeholder Concerns](1.ProblemBackground/StakeholderConcerns.md)
 - [Architecture Analysis](1.ProblemBackground/ArchitectureAnalysis.md)
-- [Actors, Actions & Significant Scenarios](1.ProblemBackground/ActorsActionsAndSignificantScenarios.md)
+- [Actors, Actions & Components](1.ProblemBackground/ActorsActionsAndComponents.md)
 - [Constraints & Assumptions](1.ProblemBackground/ConstraintsAndAssumptions.md)
 - [RAID Log](1.ProblemBackground/RAID.md)
 
