@@ -38,8 +38,6 @@ Analysis of the data required for MonitorMe may show that a document store would
 
 Binary Large Object storage is optimised for unstructured binary files that are large in size, e.g. videos and images. This would be the optimal type of storage for static content for MonitorMe.
 
-
-
 <img src="../assets/images/binary-data.png" width="150" height="150"/>
 
 ### Graph
@@ -47,8 +45,6 @@ Binary Large Object storage is optimised for unstructured binary files that are 
 A graph database is optimal for highly connected data and can be very fast for performing analytics. It is also optimal for unstructured data, in the same way as a document store.
 
 Without further analysis it would seem that a graph database would be optimal for the data that requires analytics and for also storing analytics of that data.
-
-[ADR: 008 We-will-use-a-graph-store-for-analytics](../4.ADRs/008-We-will-use-a-graph-store-for-analytics.md)
 
 <img src="../assets/images/nodes.png" width="150" height="150"/>
 
