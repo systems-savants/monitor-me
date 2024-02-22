@@ -26,12 +26,10 @@ Kubernetes allows you to deploy, scale, and manage containerized applications in
 
 
 **Negative:**
-expensive at scale., operational complexity
+expensive at scale,operational complexity
 
-- Need to on-board everyone on the project to understand ADRs.
- 
 
-**Bonus Features:**
+
 
 ---
 
