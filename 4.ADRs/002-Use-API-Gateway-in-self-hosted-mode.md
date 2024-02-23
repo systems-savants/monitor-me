@@ -26,6 +26,7 @@ Given the requirement for integrating with EHR systems securely is via secure HT
 **Positive:**
 
 - Ease of setup and maintainability.
+- Security
 
 
 ---
