@@ -12,31 +12,30 @@ Accepted
 
 ## Context
 
-The architectural decisions made on this project must be recorded in a useful and comprehensible manner.
+Here we were looking for a component and/or functionality that provides tight and hardened security in the MonitorMe ecosystem
+1. Enhanced Security: Zero Trust principles like continuous verification and least privilege access could strengthen data security and minimize unauthorized access risks.
+2. Improved Patient Privacy: By minimizing trust assumptions and implementing stricter access controls, patient data privacy could be better protected.
+3. Scalability and Flexibility: A Zero Trust architecture can be adaptable to accommodate diverse devices, users, and data flows, aligning with MonitorMe's potential growth plans.
+4. Regulatory Compliance: Zero Trust principles can help meet compliance requirements for data privacy regulations like HIPAA.
 
 ## Decision
 
-We will use Architecture Decision Records, [as described by Michael Nygard](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions).
+We decided to implement and apply the zero-trust methodology which verifies explicitly, has the least privileged access, and assumes breach.
+- Identities may be users, services, or devices.
+- Devices create a large attack surface as data flows.
+- Applications are the way that data is consumed.
+- Networks should be segmented.
+- Infrastructure on-premises represents a threat vector.
+- Data should be classified, labelled, and encrypted based on its attributes.
 
 ## Consequences
 
 **Positive:**
 
+- Security
 - Easy to access decisions.
 - Easy to find out why a decision was made.
 - Quick to learn how to create and use ADRs.
-
-**Negative:**
-
-- Need to on-board everyone on the project to understand ADRs.
-
-**Risks:**
-
-- Someone not familiar with ADRs may not know where to find them or that they exist.
-
-**Bonus Features:**
-
-- This format will be something we use in other projects to improve architecture decisions governance!
 
 ---
 
