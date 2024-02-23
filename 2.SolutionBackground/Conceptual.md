@@ -21,20 +21,20 @@ Four types of user have been identified; Patient Vital Signs, Medical Profession
 - The Medical Professionals is a user .... It is expected that there will be fine-grained authorisation controls so that a Medical Professional can be authorised to have this access, partial access, or not have access at all.
 - Patient's Vital Signs are onboarded to MonitorMe.
 
-![Context Diagram](assets/Diagrams/MonitorMe_C4_model-C1-ContextDiagram.png)
+![Context Diagram](../assets/Diagrams/MonitorMe_C4_model-C1-ContextDiagram.png)
 
 ## MonitorMe Container Diagram
 
 The Container diagram shows elements/domains (containers) within the MonitorMe system and how they relate to each other and to patients and systems outside of the MonitorMe system. Domains within the system are further broken down into Component diagrams at the next level, and so the Container diagram hides implementation details in order to see the larger picture.
 
-![Container Diagram](assets/Diagrams/MonitorMe_C4_model-C2-Container-Simplified.png)
+![Container Diagram](../assets/Diagrams/MonitorMe_C4_model-C2-Container-Simplified.png)
 
 ## Architecturally Significant Component Diagrams
 
-The following are the most architecturally significant Component diagrams for the MonitorMe system. Further Component diagrams can be created when other domains in the system are required to be developed in the [Roadmap](Roadmap.md).
+The following are the most architecturally significant Component diagrams for the MonitorMe system. 
 
 
-![AnalyticsComponentDiagram](../assets/diagrams/AnalyticsComponentDiagram.png)
+![AnalyticsComponentDiagram](../assets/Diagrams/MonitorMe_C4_model-C2-Container-Expanded.png)
 
 ---
 
