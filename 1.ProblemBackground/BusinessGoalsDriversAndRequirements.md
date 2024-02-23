@@ -85,25 +85,16 @@ MonitorMe will provide the ability to upload holistic snapshots of a patient's c
 
 ### 7. Profile customization
 
-MonitorMe users can customize patients sleep patterns so that vital sign devices data analysis can be adjusted while their sleeping or awake.
+MonitorMe users can customize patients vital sign threshold settings so that vital sign devices data analysis can be adjusted for each patient.
 
 ### 8. Third party relationships
 
-MonitorMe has relationships with ... pending.
-
-### 9. Holistic UX
-
-Add MonitorMe user interface for the consolidated monitoring screen is a holistic UX for both patient consolidate vital signs, alert notifications, and upload functionality.
-
-### 10. Customer engagement
-
-When a transactional customer purchases a meal, MonitorMe will generate an email elucidating additional benefits available for becoming an engaged customer.
+MonitorMe has relationships with MeMedicalData.
 
 
 ## Significant Non-Functional requirements 
 
-1. The new system must seamlessly incorporate into MyMedicalData.
-
+1. Intuitive consolidated vital data screen for Nurses which makes easy to understand data patterns
 
 ------
 
