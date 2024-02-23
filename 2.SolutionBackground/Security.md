@@ -13,29 +13,15 @@ Security is of paramount concern due to medical data and personally identifiable
 
 MonitorMe Identity Services can be used to manage resources, identities and access, at scale if required.
 
-Service options:
-
-- MonitorMe IAM (MonitorMe Identity & Access Management) - most likely for development, deployment, and similar
-- MonitorMe SSO (Single Sign On) - for development, deployment, and similar
-- MonitorMe Organisations - option for managing identity and access across Foods and Family
 
 ## Data Law & Compliance
 
 Compliance status and monitoring are part of MonitorMe services, so MonitorMe can choose which standards and best practices to adhere to and have these automatically monitored.
 
-Service options:
-
-- MonitorMe Audit Manager - audit MonitorMe usage for risk assessment and compliance
-- MonitorMe Artifact - compliance reporting
 
 ## Network & Infrastructure
 
 Fine-grained security policies can be enforced on network traffic, particularly important when interfacing with other systems. Within MonitorMe we can use these controls to create a Zero Trust infrastructure to help protect against intruders who may manage to circumnavigate authentication controls.
-
-Service options:
-
-- MonitorMe Shield - DDoS protection
-- MonitorMe WAF (Web Application Firewall), MonitorMe Network Firewall, & MonitorMe Firewall Manager - filter malicious traffic and implement zero-trust
 
 ## Data Protection
 
