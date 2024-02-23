@@ -15,6 +15,7 @@ The following are the identified actors, actions, and & components of MonitorMe,
 
 
 **Final Version**
+
 ![actor-action-component-2](../assets/images/actor-action-component-2.png)
 
 ## Architecturally Components
