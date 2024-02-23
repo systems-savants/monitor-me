@@ -113,13 +113,6 @@ Compliance with Architectural decisions and designs is as important as complianc
 
 ---
 
-## Next Steps:
-
-- [x] Make decisions and record in ADRs about system granularity.
-- [ ] Create diagrams of the granularity decided above.
-- [ ] Investigate options for Fitness Functions.
-
----
 
 [> Home](../README.md)   [> Problem Background](README.md)
 [< Prev](BusinessGoalsDriversAndRequirements.md)  |  [Next >](ActorsActionsAndComponents.md)
