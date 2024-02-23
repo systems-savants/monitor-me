@@ -2,7 +2,7 @@
 
 ---
 
-# IoT device communication
+# IoT Device Communication
 
 Date: 2024-02-15
 
