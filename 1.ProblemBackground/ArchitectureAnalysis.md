@@ -105,7 +105,7 @@ See [Datastore Solution Overview](../4.ADRs/013-Postgre-SQL-for-Data-Storage.md)
 | MonitorMe     | 2-way               | Patient          | So that MonitorMe can identify patients that are not pluck into their vital signs. | Interface, Authentication, Authorisation                     |
 | MyMedicalData | Patient to Doctor   | Patient Snapshot | Medical professionals can generate holistic snapshots from a patient's consolidated vital signs at any time and then upload the patient holistic snapshot to MyMedicalData cloud-base app. | User (Medical Staff), Authentication, Authorisation |
 
-[ADR: An Interface will be used for system-system integration](../4.ADRs/002-Use-API-Gateway-in-self-hosted-mode.md)
+[ADR: 002 Use API Gateway in self-hosted mode](../4.ADRs/002-Use-API-Gateway-in-self-hosted-mode.md)
 
 ---
 
