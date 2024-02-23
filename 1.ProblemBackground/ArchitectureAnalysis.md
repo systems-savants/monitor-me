@@ -55,13 +55,6 @@ Of the characteristics identified above, do they apply to the whole system or ar
 | Messaging                                             | Email, Message, Notification, Subscription?                  | - Workflow                                                   | Supportive       |
 | Interface                                             |                                                              | - Interoperability<br />- Authorisation<br />- Data-Integrity | Supportive       |
 
-### Venn Diagram
-
-This diagram illustrates that although there are many shared characteristics, even those that are shared are shared by domains that do not themselves overlap. This leads us to a distributed architecture with deployment, backup and disaster recovery needing to take into account these characteristics. These characteristics may also inform further granularity of these domains.
-
-![CharacteristicsVennDiagram](../assets/images/CharacteristicsVennDiagram.png)
-
----
 
 ## System Granularity
 
