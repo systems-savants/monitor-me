@@ -50,12 +50,13 @@ Welcome to our entry to the O'Reilly Winter 2024 Architectural Katas. The aim of
 ## Resources <a href='#' id='resources'></a>
 
 - [2024 O'Reilly Architecture Katas Presentation](assets/docs/2024_oreilly_architectural_katas.pdf)
-- [Amazon Web Services Outposts - Servers](https://aws.amazon.com/outposts/servers/?nc=sn&loc=3)
 - [Carelon Architectural Katas Winter 2024](assets/docs/Architectual-Katas-Winter-2024.pdf)
 
 ## References
 
 - [C4 Model](https://c4model.com/)
-- [Vanilla for Forums and events ](https://vanillaforums.com/en/)
+- [Amazon Web Services Outposts - Servers](https://aws.amazon.com/outposts/servers/?nc=sn&loc=3)
+- [Ambassador API Gateway](https://www.getambassador.io/)
+- [HiveMQ - MQTT Broker](https://www.hivemq.com/info/mqtt-broker)
 
 ---
