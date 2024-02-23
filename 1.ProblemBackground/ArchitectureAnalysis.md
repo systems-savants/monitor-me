@@ -56,6 +56,7 @@ Of the characteristics identified above, do they apply to the whole system or ar
 | Interface                                             |                                                              | - Interoperability<br />- Authorisation<br />- Data-Integrity | Supportive       |
 
 
+
 ## System Granularity
 
 A breakdown of the key granularity analysis and links to ADRs.
@@ -68,6 +69,7 @@ A breakdown of the key granularity analysis and links to ADRs.
 | Doctor        | Low        | Unlikely to be required | Could be merged with Nursen    | High          | Patient Vital Signs           | Profile, Messages            | Similar to Clinic    |
 | Nurse         | Low        | Unlikely to be required | Could be merged with Doctor    | High          | Patient Vital Signs           | Vital Signs, Messages        | Similar to Dietician |
 | MonitorMe     | Low        | Unlikely to be required | Split required                 | High          | Patient Vital Signs            | (all above)                  | Separate             |
+| IT Staff      | Low        | Unlikely to be required | Split required                  | High          |                               | Security                  | Separate             |
 
 
 ### Security
