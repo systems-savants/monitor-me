@@ -7,9 +7,9 @@
 
 The following show the conceptual design for the MonitorMe system. More information about C4 modelling can be found in the [C4 Models section](../3.ViewsAndPerspectives/C4Models/README.md) of this documentation.
 
-## C4 Model Key
+## Capacity Planning
 
-![C4ModelKey](../assets/diagrams/C4ModelKey.png)
+![CapacityPlanning](../assets/images/CapacityPlanningData.png)
 
 ## MonitorMe Context Diagram
 
