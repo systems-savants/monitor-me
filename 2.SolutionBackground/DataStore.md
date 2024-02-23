@@ -41,7 +41,6 @@ threshold (e.g., temperature has reached 104 degrees F).
 - Medical staff can then upload the patient snapshot to MyMedicalData. 
 - The upload functionality is within the scope of the MonitorMe functionality and is done through a secure HTTP API call within MyMedicalData
   
-  <img src="../assets/diagrams/GraphDatastoreModel-Uploading.png" width="650"/>
 
 
 [> Home](../README.md)    [> Solution Background](README.md)
