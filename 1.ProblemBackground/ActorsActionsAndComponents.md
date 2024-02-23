@@ -24,7 +24,7 @@ The following are the most architecturally significant scenarios/flows, derived 
 
 A patient is hock up to all the patient-monitoring devices to collect the patient's vital signs.
 
-![Scenario-OnboardMonitorMePatient](../assets/images/Dashboard.webp)
+![Scenario-OnboardMonitorMePatient](../assets/images/Dashboard11.webp)
 
 
 
