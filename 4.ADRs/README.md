@@ -25,7 +25,7 @@
 
 [009 Use of Infrastructure as Code (IaC)](009-Use-of-Infrastructure-as-Code-(IaC).md)
 
-[010 IoT Device Communication - MQTT Protocol](010-IoT Device Communication - MQTT Protocol.md)
+[010 IoT Device Communication - MQTT Protocol](010-IoT-Device-Communication-MQTT-Protocol.md)
 
 [011 Interoperability (Data Exchange)](011-Interoperability-(Data-Exchange).md)
 
