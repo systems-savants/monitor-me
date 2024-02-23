@@ -9,7 +9,7 @@ The following are the concerns from the various stakeholders of the system. Thes
 
 | Stakeholder            | Concerns                                                     | Initial Thoughts on Characteristics/Generics     |
 | ---------------------- | ------------------------------------------------------------ | ------------------------------------------------ |
-| Patient Vital Signs    | - seamless experience across MonitorMe<br/>- pending | Integration, Analytics, Data Integrity           |
+| Nurses    | - seamless experience across MonitorMe<br/>- pending | Integration, Analytics, Data Integrity           |
 | Medical Professionals  | - upload holistic snapshots from a patient's consolidated vital signs<br/>- receive alert notification of messages from patients | Security, Permissions, Communications            |
 
 ---
