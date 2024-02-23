@@ -39,7 +39,6 @@ Welcome to our entry to the O'Reilly Winter 2024 Architectural Katas. The aim of
 - [Data Store Solution](2.SolutionBackground/DataStore.md)
 - [Security](2.SolutionBackground/Security.md)
 - [Deployment](2.SolutionBackground/Deployment.md)
-- [Roadmap](2.SolutionBackground/Roadmap.md)
 - [ADRs](4.ADRs/README.md)
 
 
