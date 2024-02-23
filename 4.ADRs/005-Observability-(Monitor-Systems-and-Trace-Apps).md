@@ -12,32 +12,19 @@ Accepted
 
 ## Context
 
-The architectural decisions made on this project must be recorded in a useful and comprehensible manner.
+Monitoring practices rely on various tools and services to collect, analyze, and present data insights. These can be used for insights to identify vulnerabilities and issues, predict performance, and optimize configurations.
 
 ## Decision
 
-We will use Architecture Decision Records, [as described by Michael Nygard](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions).
+For monitoring and logging, Elastic stack will be utilized with Kibana as a single pane view of the system performane metrics. 
 
 ## Consequences
+Identify vulnerabilities and issues, predict performance, and optimize configurations.
 
 **Positive:**
 
-- Easy to access decisions.
-- Easy to find out why a decision was made.
-- Quick to learn how to create and use ADRs.
+- Faster troubleshooting
+- Maintain SLA/SLO for high-availability, resiliency, fault-tolerance, etc.
 
-**Negative:**
-
-- Need to on-board everyone on the project to understand ADRs.
-
-**Risks:**
-
-- Someone not familiar with ADRs may not know where to find them or that they exist.
-
-**Bonus Features:**
-
-- This format will be something we use in other projects to improve architecture decisions governance!
-
----
 
 [> Home](../README.md)    [> ADRs](README.md)
