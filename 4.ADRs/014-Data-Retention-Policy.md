@@ -2,7 +2,7 @@
 
 ---
 
-# Postgre SQL for Data Storage
+# Data Retention Policy
 
 Date: 2024-02-15
 
