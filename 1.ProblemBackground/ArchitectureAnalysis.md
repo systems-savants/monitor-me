@@ -64,12 +64,11 @@ A breakdown of the key granularity analysis and links to ADRs.
 
 | Functionality | Volatility | Scalability             | Fault Tolerance                | Data Security | Data Transactions              | Data Dependencies            | Workflow             |
 | ------------- | ---------- | ----------------------- | ------------------------------ | ------------- | ------------------------------ | ---------------------------- | -------------------- |
-| Patient       | Low        | Unlikely to be required | Split required                 | High          | Profile, Onboarding, Message   | Security, Messages           | Separate             |
-| Doctor        | Low        | Unlikely to be required | Could be merged with Nursen    | High          | Vital Signs, Message           | Profile, Messages            | Similar to Clinic    |
-| Nurse         | Low        | Unlikely to be required | Could be merged with Doctor    | High          | Vital Signs, Message           | Vital Signs, Messages        | Similar to Dietician |
-| MonitorMe     | Low        | Unlikely to be required | Split required                 | High          | Manage patients, data, alerts  | (all above)                  | Separate             |
+| Patient       | Low        | Unlikely to be required | Split required                 | High          | Patient Vital Signs            | Security, Messages           | Separate             |
+| Doctor        | Low        | Unlikely to be required | Could be merged with Nursen    | High          | Patient Vital Signs           | Profile, Messages            | Similar to Clinic    |
+| Nurse         | Low        | Unlikely to be required | Could be merged with Doctor    | High          | Patient Vital Signs           | Vital Signs, Messages        | Similar to Dietician |
+| MonitorMe     | Low        | Unlikely to be required | Split required                 | High          | Patient Vital Signs            | (all above)                  | Separate             |
 
-[ADR: pending](../4.ADRs/pending.md)
 
 ### Security
 
@@ -78,7 +77,6 @@ A breakdown of the key granularity analysis and links to ADRs.
 | Authentication | Low        | Unlikely to be required | Don't want one without the other, could be merged with Authorisation | High          | User email/username, User password (hashed/salted)   | User              | Separate |
 | Authorisation  | Low        | Unlikely to be required | Don't want one without the other, could be merged with Authentication | High          | User Roles / Permissions, User authentication status | User              | Separate |
 
-[ADR: Combine Authentication and Authorisation into one Security Domain](../4.ADRs/012-We-will-combine-authentication-and-athorisation.md)
 
 
 ### Messaging
@@ -90,7 +88,7 @@ A breakdown of the key granularity analysis and links to ADRs.
 | Email                     | Low        | Medium usage | Split required from Subscription                  | Medium        | User email address                                           | User                                      | Separate |
 | Subscription (add/remove) | Medium     | Low usage    | Split required from Notification, Message & Email | Low           | User Id, Forum/Event/Class Id, Subscription                  | User, Forum, Event, Class, Subscription   | Separate |
 
-[ADR: Messaging will be split into Subscription, Message, Notification and Email](../4.ADRs/016-We-will-split-messaging-domain.md)
+[ADR: MQTT Broker](../4.ADRs/011-MQTT-broker.md)
 
 ### Data Store
 
