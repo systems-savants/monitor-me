@@ -13,6 +13,7 @@ The following are the identified actors, actions, and & components of MonitorMe,
 **First Draft**
 ![actor-action-component-1](../assets/images/actor-action-component-1.png)
 
+
 **Final Version**
 ![actor-action-component-2](../assets/images/actor-action-component-2.png)
 
