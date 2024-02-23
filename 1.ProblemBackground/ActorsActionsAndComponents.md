@@ -6,23 +6,19 @@
 
 The Actors on the system (typically the human users but can also include other systems) and the actions they take help to form the key scenarios, or flows, of the system. The following identifies the significant actors, actions and key scenarios that will inform the architecture of the MonitorMe system.
 
-## Actors & Actions
+## Actors, Actions, & Components
 
-The identified actors of MonitorMe and their actions are as follows:
+The following are the identified actors, actions, and & components of MonitorMe, note we included the first draft and the final version:
 
-| Actor                  | Actions                                                      |
-| ---------------------- | ------------------------------------------------------------ |
-| Patient                | * Places meal order on Farmacy Foods<br />* Registers on Farmacy Family to become an engaged customer<br /> |
-| Nurse Station          | * Creates Farmacy Family profile/account (onboarding) <br />* Shares medical profile with Clinic/Dietician<br />* Interacts with fellow Engaged Customer <br />* Interacts with Dietician<br />* Registers for Event<br />* Registers for Class |
-| System (MonitorMe)     | * Interacts with Engaged Customer<br />* Accesses health data of the Engaged Customer<br />* Gives customized diet plan to the Engaged Customer |
+**First Draft**
+![actor-action-component-1](../assets/images/actor-action-component-1.png)
+
+**Final Version**
+![actor-action-component-2](../assets/images/actor-action-component-2.png)
 
 ## Architecturally Components
 
 The following are the most architecturally significant scenarios/flows, derived from the Actors and Actions above, which will shape the architecture of the MonitorMe system.
-
-![actor-action-component-1](../assets/images/actor-action-component-1.png)
-
-![actor-action-component-2](../assets/images/actor-action-component-2.png)
 
 
 ### 01  Onboard Patient to MonitorMe
