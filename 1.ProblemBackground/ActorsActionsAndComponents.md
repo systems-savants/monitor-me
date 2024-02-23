@@ -25,29 +25,20 @@ The following are the most architecturally significant scenarios/flows, derived 
 
 ### 01  Onboard Patient to MonitorMe
 
-A patient is hock up to all the patient-monitoring devices to collect the patient's vital signs.
-
-![Scenario-OnboardMonitorMePatient](../assets/images/Dashboard11.webp)
-
-
+A patient is connected to all the patient-monitoring devices to collect the patient's vital signs.
 
 ### 02 Share Patient's Vital Signs Data with MonitorMe and Nurse's station
 
-The patient's vital signs data is stream to MonitorMe to be analyze and then send to a consolidated monitoring screen per nurse station.
-
-![Scenario-SendVitalSignsToMonitorMe](../assets/diagrams/Scenario-SendVitalSignsToMonitorMe.png)
+The patient's vital signs data is streamed to MonitorMe to be analyzed and then send to a consolidated monitoring screen per nurse station.
 
 ### 03 Medical Professionals receive alert push notifications
 
 If any of vital sign device (or software) fails, MonitorMe must still function and sent alert push notifications to a StayHealthy mobile app as well as to the consolidated monitoring screen in each nurses station.
 
-![Scenario-AlertNotifications](../assets/diagrams/Scenario-AlertNotifications.png)
-
 ### 04 Medical Professionals can generate holistic snapshots
 
 Medical professionals can generate holistic snapshots from a patient's consolidated vital signs at any time and then upload the patient's holistic snapshot to MyMedicalData.
 
-![Scenario-UploadHolisticSnapshot](../assets/diagrams/Scenario-UploadHolisticSnapshot.png)
 
 ------
 
