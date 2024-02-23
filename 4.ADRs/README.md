@@ -11,7 +11,7 @@
 
 [002 Use API Gateway in self-hosted mode](002-Use-API-Gateway-in-self-hosted-mode.md)
 
-[003 Hosting Platform On Prem - CapEx](003-Hosting-Platform-On-Prem-CapEx.md)
+[003 Hosting Platform On Prem - CapEx](003-Hosting-Platform-On-Prem.md)
 
 [004 System Approach](004-System-Approach.md)
 
@@ -23,9 +23,9 @@
 
 [008 Deployment Strategy](008-Deployment-Strategy.md)
 
-[009 Use of Infrastructure as Code (IaC)](0009-Use-of-Infrastructure-as-Code-(IaC).md)
+[009 Use of Infrastructure as Code (IaC)](009-Use-of-Infrastructure-as-Code-(IaC).md)
 
-[010 MQTT Broker](010-MQTT-broker.md)
+[010 IoT Device Communication - MQTT Protocol](010-IoT Device Communication - MQTT Protocol.md)
 
 [011 Interoperability (Data Exchange)](011-Interoperability-(Data-Exchange).md)
 
