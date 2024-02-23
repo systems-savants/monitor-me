@@ -33,7 +33,6 @@ sleep status (sleep or awake).
 threshold (e.g., temperature has reached 104 degrees F).
 - Some trend and threshold analysis is dependent on whether the patient is awake or asleep.
 
-<img src="../assets/diagrams/GraphDatastoreModel-VitalSignsAnalysis.png" width="500"/>
 
 ### Uploading
 
