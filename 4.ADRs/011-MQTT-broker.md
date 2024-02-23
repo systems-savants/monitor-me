@@ -2,7 +2,7 @@
 
 ---
 
-# MQTT Broker
+# IoT device communication
 
 Date: 2024-02-15
 
@@ -13,19 +13,18 @@ Accepted
 ## Context
 
 Here we are looking for a mechanism to handle the incoming messages from multiple devices efficiently without any data loss.
+Choices considered : Eclipse Mosquitto, AWS IoT Core, AWS IoT Green Grass, Rabbit MQ (with MQTT) 
 
 ## Decision
 
-we decided on using a MQMT broker which will use MQTT protocol to recieve data from the devices.
-Each device will have its seperate topic and the corresponding microservice will subscribe to that topic
+As the data collection and analysis is happening on premises we decide to go with HiveMQ MQTT Broker.
+Each vital sign will have its own topic and the corresponding microservice will subscribe to that topic
 
 ## Consequences
 
 **Positive:**
 
-- Avoid data loss even, if the subscriber service is down ,messages from devices will not be lost.
-- Having seperate topics and subscriber will ensure that in case of any issues in any of the components ,data from other devices is still available for consolidation.
-
+- Enterprise grade ,high availibility and ability to deploy via Kubernates
 
 ---
 
