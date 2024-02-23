@@ -18,11 +18,11 @@ performance    responsiveness    availability    fault-tolerance    scalability/
 | Top 3 | Characteristic               | Source                                                       |
 | ----- | ---------------------------- | ------------------------------------------------------------ |
 | Y     | Interoperability/Integration | Integration of patient's vital sign devices with MonitorMe (analyzing streaming data), and with MyMedicalData. |
-|       | Data Integrity               | Pending. |
-|       | Scalability/Elasticity       | ....., likely to require more resources (especially computational and storage) at different times. |
+|       | Data Integrity               | Vital sign data analyzed and recorded through MonitorMe must be as accurate as possible as the human lives are at stake. |
+|       | Scalability/Elasticity       | StayHealthy, Inc. is looking towards adding more vital sign monitoring devices for MonitorMe in the future. |
 | Y     | [Real-Time] Performance      | Vital signs data is send to consolidated monitoring screen with an average response time of 1 second or less. |
-| Y     | High Availability            | Pending. |
-|       | Deployability                | Pending. |
+| Y     | High Availability            | System needs to be available all the times as the medical professional need to monitor patients vitals and take decision based on them. |
+|       | Deployability                | We are proposing a micro service architecture with a service for each device ,being able to deploy the whole system seemlessly is important. |
 
 ### Implicit Architecture Characteristics
 
