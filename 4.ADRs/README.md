@@ -17,23 +17,20 @@
 
 [005 Observability (Monitor Systems and Trace Apps)](005-Observability-(Monitor-Systems-and-Trace-Apps).md)
 
-[006 Dedicated Health-Check endpoint for services](006-Dedicated-Health-Check-endpoint-for-services.md)
+[006 MonitorMe Zero Trust Architecture](006-MonitorMe-Zero-Trust-Architecture.md)
 
-[007 MonitorMe Zero Trust Architecture](007-MonitorMe-Zero-Trust-Architecture.md)
+[007 MonitorMe Layered approach to security](007-MonitorMe-Layered-approach-to-security.md)
 
-[008 MonitorMe Layered approach to security](008-MonitorMe-Layered-approach-to-security.md)
+[008 Deployment Strategy](008-Deployment-Strategy.md)
 
-[009 Deployment Strategy](009-Deployment-Strategy.md)
+[009 Use of Infrastructure as Code (IaC)](0009-Use-of-Infrastructure-as-Code-(IaC).md)
 
-[010 Use of Infrastructure as Code (IaC)](010-Use-of-Infrastructure-as-Code-(IaC).md)
+[010 MQTT Broker](010-MQTT-broker.md)
 
-[011 MQTT Broker](011-MQTT-broker.md)
+[011 Interoperability (Data Exchange)](011-Interoperability-(Data-Exchange).md)
 
-[012 Interoperability (Data Exchange)](012-Interoperability-(Data-Exchange).md)
+[012 Postgre SQL for Data Storage](012-Postgre-SQL-for-Data-Storage.md)
 
-[013 Postgre SQL for Data Storage](013-Postgre-SQL-for-Data-Storage.md)
-
-[014 Data Retention Policy](014-Data-Retention-Policy.md)
 
 ------
 
