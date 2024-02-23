@@ -33,9 +33,7 @@ We decided to implement and apply the zero-trust methodology which verifies expl
 **Positive:**
 
 - Security
-- Easy to access decisions.
-- Easy to find out why a decision was made.
-- Quick to learn how to create and use ADRs.
+
 
 ---
 
