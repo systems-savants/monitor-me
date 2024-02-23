@@ -5,7 +5,7 @@
 
 # Project Roadmap
 
-The following roadmap assumes MonitorMe is already in existence. If both systems were developed in parallel it is suggested that they could be more closely linked within AWS, possibly using the same event log and therefore not requiring specific interfaces between MonitorMe and Farmacy Family.
+The following roadmap shows that MonitorThem and MyMedicalData are already in existence...
 
 ## Current System
 
