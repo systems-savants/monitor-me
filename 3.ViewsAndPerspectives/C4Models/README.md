@@ -30,7 +30,7 @@ A Container diagram zooms into the software system in scope, showing the high-le
 
 ![MonitorMe_C4_model-C2-Container-Expanded](../../assets/Diagrams/MonitorMe_C4_model-C2-Container-Expanded.png)
 
-## Component Diagrams (Level 3)
+## Component Diagrams (Level 3 & Level 4)
 
 A **Component** diagram zooms into an individual container, showing the components inside it.[^](#expl)
 
