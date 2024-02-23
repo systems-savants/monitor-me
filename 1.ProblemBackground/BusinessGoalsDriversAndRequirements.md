@@ -97,8 +97,7 @@ MonitorMe has relationships with MeMedicalData.
 1. Intuitive consolidated vital data screen for Nurses which makes easy to understand data patterns
 2. Section 508 compliance
 3. HiTrust Compliance
-4. GPTR Compliance
-5. SOX2 Compliance
+4. SOX2 Compliance
 
 ------
 
