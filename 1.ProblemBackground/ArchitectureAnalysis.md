@@ -52,8 +52,6 @@ Of the characteristics identified above, do they apply to the whole system or ar
 | Data Store                                            | Database, Interface                                          | - Data Integrity<br />- Authorisation                        | Generic          |
 | Class (localised, temporal)                           |                                                              | - Configurability<br />- Fault Tolerance                     | Core             |
 | Event (in-person, localised, temporal)                |                                                              | - Configurability<br />Fault Tolerance                       | Core             |
-| Forum (localised, temporal)                           |                                                              | - Configurability<br />- Fault Tolerance                     | Core             |
-| Reference Material / Media (global, reference/static) | Media Library, Vital Signs                              | - Scalability/Elasticity                                     | Generic          |
 | Messaging                                             | Email, Message, Notification, Subscription?                  | - Workflow                                                   | Supportive       |
 | Interface                                             |                                                              | - Interoperability<br />- Authorisation<br />- Data-Integrity | Supportive       |
 
