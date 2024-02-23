@@ -21,43 +21,18 @@ Four types of user have been identified; Patient Vital Signs, Medical Profession
 - The Medical Professionals is a user .... It is expected that there will be fine-grained authorisation controls so that a Medical Professional can be authorised to have this access, partial access, or not have access at all.
 - Patient's Vital Signs are onboarded to MonitorMe.
 
-![Context Diagram](../assets/diagrams/ContextDiagram.png)
+![Context Diagram](assets/Diagrams/MonitorMe_C4_model-C1-ContextDiagram.png)
 
 ## MonitorMe Container Diagram
 
 The Container diagram shows elements/domains (containers) within the MonitorMe system and how they relate to each other and to patients and systems outside of the MonitorMe system. Domains within the system are further broken down into Component diagrams at the next level, and so the Container diagram hides implementation details in order to see the larger picture.
 
-![Container Diagram](../assets/diagrams/ContainerDiagram.png)
+![Container Diagram](assets/Diagrams/MonitorMe_C4_model-C2-Container-Simplified.png)
 
 ## Architecturally Significant Component Diagrams
 
 The following are the most architecturally significant Component diagrams for the MonitorMe system. Further Component diagrams can be created when other domains in the system are required to be developed in the [Roadmap](Roadmap.md).
 
-### Medical Management
-
-#### Relevant ADRs
-
-- [005 use-crypto-shredding](../../4.ADRs/005-use-crypto-shredding.md)
-- [010 We-will-use-a-secure-data-solution](../../4.ADRs/010-We-will-use-a-secure-data-solution.md)
-- [017 Separate the Medical domain](../../4.ADRs/017-We-will-split-medical-domain.md)
-
-![Medical Component Diagram](../assets/diagrams/MedicalComponentDiagram.png)
-
-### User Management
-
-#### Relevant ADRs
-
-- [011 Separate the User domain](../../4.ADRs/011-We-will-separate-the-user-domain.md)
-- [019 Use Authentication and Authorisation for human-system integration](../../4.ADRs/019-use-auth-for-human-system-integration.md)
-
-![User Component Diagram](../assets/diagrams/UserComponentDiagram.png)
-
-### Analytics
-
-#### Relevant ADRs
-
-- [008 Use a graph store for analytics](../../4.ADRs/008-We-will-use-a-graph-store-for-analytics.md)
-- [015 Separate the Analytics domain](../../4.ADRs/015-We-will-split-analytics-domain.md)
 
 ![AnalyticsComponentDiagram](../assets/diagrams/AnalyticsComponentDiagram.png)
 
