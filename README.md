@@ -51,6 +51,7 @@ Welcome to our entry to the O'Reilly Winter 2024 Architectural Katas. The aim of
 
 - [2024 O'Reilly Architecture Katas Presentation](assets/docs/2024_oreilly_architectural_katas.pdf)
 - [Carelon Architectural Katas Winter 2024](assets/docs/Architectual-Katas-Winter-2024.pdf)
+- [Team Logo Generation by Dall-E](https://openai.com/dall-e-2)
 
 ## References
 
@@ -58,5 +59,6 @@ Welcome to our entry to the O'Reilly Winter 2024 Architectural Katas. The aim of
 - [Amazon Web Services Outposts - Servers](https://aws.amazon.com/outposts/servers/?nc=sn&loc=3)
 - [Ambassador API Gateway](https://www.getambassador.io/)
 - [HiveMQ - MQTT Broker](https://www.hivemq.com/info/mqtt-broker)
+
 
 ---
