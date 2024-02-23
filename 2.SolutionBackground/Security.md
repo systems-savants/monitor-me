@@ -5,7 +5,7 @@
 
 # Security Overview
 
-There are many aspect of security to consider, including Authentication and Authorisation. The following is an overview of the security considerations for the MonitorMe, which will be deployed using MonitorMe along the same lines as Farmacy Foods.
+There are many aspects of security to consider, including Authentication (Identity) and Authorisation (Access Management). The following is an overview of the security considerations for the MonitorMe.
 
 Security is of paramount concern due to medical data and personally identifiable information being stored in the system.
 
@@ -15,9 +15,8 @@ MonitorMe Identity Services can be used to manage resources, identities and acce
 
 Service options:
 
-- MonitorMe IAM (MonitorMe Identity Access Management) - most likely for development, deployment, and similar
+- MonitorMe IAM (MonitorMe Identity & Access Management) - most likely for development, deployment, and similar
 - MonitorMe SSO (Single Sign On) - for development, deployment, and similar
-- MonitorMe - identity management for users of MonitorMe
 - MonitorMe Organisations - option for managing identity and access across Foods and Family
 
 ## Data Law & Compliance
@@ -46,23 +45,12 @@ Data will be encrypted when at rest (e.g. in a database) and in transit (within 
 
 Passwords will be stored only as salted hashes and the policy for length and complexity will follow current best practice (e.g. 10+ characters, at least 256 character higher length limit, NO need to include specific character types, check hacked/common password lists, NO need to change every x months, etc), and best practice password tips will be displayed.
 
-Service options:
+**Please reference the below ADRs about security**
 
-- KMS (Key Management Service) - encryption key storage and management
-- MonitorMe Certificate Manager - manage public and private SSL/TLS certificates
-- MonitorMe Secrets Manager - manage, rotate and retrieve secrets
+[MonitorMe Zero Trust Architecture](../4.ADRs/006-MonitorMe-Zero-Trust-Architecture.md) 
 
-## Threat Detection & Monitoring
+[MonitorMe Layered approach to security](../4.ADRs/007-MonitorMe-Layered-approach-to-security.md) 
 
-MonitorMe provides services to continuously monitor network activity and behaviour of accounts/users, in order to identify threats at the earliest opportunity.
-
-Service options:
-
-- MonitorMe Security Hub - monitor compliance and security
-- MonitorMe GuardDuty - threat detection
-- MonitorMe CloudTrail - log and track activity
-- MonitorMe Detective - investigate potential threats and issues
-- MonitorMe Disaster Recovery - recover from outages or malicious attacks
 
 [> Home](../README.md)    [> Solution Background](README.md)
 [< Prev](DataStore.md)  |  [Next >](Deployment.md)
