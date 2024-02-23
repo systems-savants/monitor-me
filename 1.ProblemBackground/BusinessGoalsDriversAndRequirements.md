@@ -95,6 +95,10 @@ MonitorMe has relationships with MeMedicalData.
 ## Significant Non-Functional requirements 
 
 1. Intuitive consolidated vital data screen for Nurses which makes easy to understand data patterns
+2. Section 508 compliance
+3. HiTrust Compliance
+4. GPTR Compliance
+5. SOX2 Compliance
 
 ------
 
