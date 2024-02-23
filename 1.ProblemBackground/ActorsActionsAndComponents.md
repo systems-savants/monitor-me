@@ -24,7 +24,9 @@ The following are the most architecturally significant scenarios/flows, derived 
 
 A patient is hock up to all the patient-monitoring devices to collect the patient's vital signs.
 
-![Scenario-OnboardMonitorMePatient](../assets/diagrams/Scenario-OnboardMonitorMePatient.png)
+![Scenario-OnboardMonitorMePatient](../assets/Diagrams/MonitorMe_C4_model-C2-Container-Simplified.png)
+
+
 
 ### 02 Share Patient's Vital Signs Data with MonitorMe and Nurse's station
 
