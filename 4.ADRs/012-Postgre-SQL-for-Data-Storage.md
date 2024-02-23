@@ -4,7 +4,7 @@
 
 # Postgre SQL for Data Storage
 
-Date: 2024-02-15
+Date: 2024-02-22
 
 ## Status
 
@@ -12,7 +12,7 @@ Options: Accepted
 
 ## Context
 
-MonitorMe requires an on-premises data storage and processing option that supports high performance writes and reads, is secure, and maintains data accuracy/integrity.
+MonitorMe requires an on-premises data storage and processing option that supports high-performance writes and reads, is secure, and maintains data accuracy/integrity.
 
 ## Decision
 
@@ -21,12 +21,12 @@ The decision is to use AWS RDS PostgreSQL based on data storage and access patte
 Data will be partitioned by Nurse Station Identifier and Patient Identifier.
 
 ## Consequences
-Satisfy storage requirements for data at rest and transit. Satisfy requirement for providing secure data to EHR integrations.
+Satisfy storage requirements for data at rest and transit. Satisfy requirements for providing secure data to EHR integrations.
 
 **Positive:**
 
-- ACID compliant data - a requirement for data integrity, consistency, and reliability
-- Supports various data formats including JSON and integrates with full text search
+- ACID-compliant data - a requirement for data integrity, consistency, and reliability
+- Supports various data formats including JSON and integrates with full-text search
 - Compared to alternatives compared (SQL Server and MongoDB), PostgreSQL provides lower latency
 - Supports vertical scalability
 
