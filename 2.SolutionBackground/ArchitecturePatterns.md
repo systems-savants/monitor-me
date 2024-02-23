@@ -48,11 +48,9 @@ The above matrix gives us two candidates for our architecture, which need furthe
 
 ## Conclusion
 
-Both architecture options have trade-offs, but the trade-offs for the Event-Driven architecture are lower overall.
+Both architecture options have trade-offs, so we decided to go with a commbination of both microservices and event driven.
 
-### Decision
 
-ADR: [002 We-will-use-an-event-driven-backend-architecture](../4.ADRs/002-We-will-use-an-event-driven-backend-architecture.md)
 
 ---
 
