@@ -4,7 +4,7 @@
 
 # Hosting Platform On Prem - AWS Outposts Servers
 
-Date: 2024-02-15
+Date: 2024-02-22
 
 ## Status
 
