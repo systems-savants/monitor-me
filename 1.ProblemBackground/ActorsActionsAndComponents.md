@@ -20,6 +20,11 @@ The identified actors of MonitorMe and their actions are as follows:
 
 The following are the most architecturally significant scenarios/flows, derived from the Actors and Actions above, which will shape the architecture of the MonitorMe system.
 
+![actor-action-component-1](../assets/images/actor-action-component-1.png)
+
+![actor-action-component-2](../assets/images/actor-action-component-2.png)
+
+
 ### 01  Onboard Patient to MonitorMe
 
 A patient is hock up to all the patient-monitoring devices to collect the patient's vital signs.
