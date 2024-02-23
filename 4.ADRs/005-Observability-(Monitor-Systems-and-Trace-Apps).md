@@ -12,7 +12,7 @@ Accepted
 
 ## Context
 
-Monitoring practices rely on various tools and services to collect, analyze, and present data insights. These can be used for insights to identify vulnerabilities and issues, predict performance, and optimize configurations.
+Monitoring practices rely on various tools and services to collect, analyze, and present data insights. These can be used for insights to identify vulnerabilities and issues, predict performance, and optimize configurations. This includes a dedicated health check for services.
 
 ## Decision
 
