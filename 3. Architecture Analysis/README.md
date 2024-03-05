@@ -10,7 +10,7 @@
 
 [3.3 Actors, Actions, and Components](3.3.ActorsActionsComponents.md)
 
-[3.4 Key Architecture Characteristics](3.3.ActorsActionsComponents.md)
+[3.4 Key Architecture Characteristics](3.4.KeyArchitectureCharacteristics.md)
 
 [3.5 Capacity Planning](3.5.CapacityPlanning.md)
 
