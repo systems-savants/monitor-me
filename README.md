@@ -141,14 +141,10 @@ The above characteristics are highlighted below in green, with data integrity, a
 ### Container Diagram (C2)
 
 **Simplified Container Diagram:**
-
 ![MonitorMe_C4_model-C2-Container-Simplified](assets/Diagrams/MonitorMe_C4_model-C2-Container-Simplified.png)
 
-
-**(Microservices) Expanded Containter Diagram (C2) **
-
+**(Microservices) Expanded Container Diagram (C2):**
 ![MonitorMe_C4_model-C2-Container-Expanded](assets/Diagrams/MonitorMe_C4_model-C2-Container-Expanded.png)
-
 
 
 ### Deployment Diagram [Hybrid/Private Cloud using On-premises AWS Outposts Servers]
