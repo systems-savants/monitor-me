@@ -31,14 +31,13 @@ Here's our [five-minute video presentation](https://www.linkedin.com/in/vishalga
   Other Considerations
 3. Architecture Analysis
   Architecturally Significant Requirements
-  Constraints
-  Assumptions
-4. Solution Overview
+  Constraints and Assumptions
   Actors, Actions, and Components
   Key Architecture Characteristics
-  Capacity Planning
-  High-Level Architecture
   Data Storage Considerations
+  Capacity Planning
+4. Solution Overview
+  High-Level Architecture
   Deployment Architecture
 5. Architecture Decision Records (ADRs)
   001-Use-K8s-with-containerize-microservice-architecture-style
