@@ -50,8 +50,10 @@ Here's our [five-minute video presentation](https://www.linkedin.com/in/vishalga
   010-Interoperability
   011-Postgre-SQL-for-Data-Storage
 5. Solution Overview
-  5.1 High-Level Architecture
-  5.2 Deployment Architecture
+  5.1 Nurse Station Dashboard UI View
+  5.2 Medical Professional Mobile APP UI View
+  5.3 High-Level Architecture
+  5.4 Deployment Architecture
 
 ```
 
