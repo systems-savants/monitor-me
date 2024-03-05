@@ -2,7 +2,7 @@
 
 ---
 
-# System Approach
+# System Design Approach
 
 Date: 2024-02-22
 
