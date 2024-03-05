@@ -64,21 +64,17 @@ Here's our [five-minute video presentation](https://www.linkedin.com/in/vishalga
 [3. Architecture Analysis](3.%20Architecture%20Analysis/README.md)
 
 
-### Actors, Actions, and Components
+Actors, Actions, and Components
 
 **First Draft**
-![actor-action-component-1](../assets/images/actor-action-component-1.png)
+![actor-action-component-1](assets/images/actor-action-component-1.png)
 
 
 **Final Version**
-![actor-action-component-2](../assets/images/actor-action-component-2.png)
+![actor-action-component-2](assets/images/actor-action-component-2.png)
 
 
-### Key Architecture Characteristics
-
-By identifying the key architecture characteristics (capabilities) for this solution we can then identify the toward which *architecture style we are push toward* hence our *best* solution. Best practice is to identify seven or less architecture characteristics (capabilities). These, along with the implicit architecture characteristics, will then feed into the overall architecture of the MonitorMe system.
-
-### Candidate Architecture Characteristics
+#### Candidate Architecture Characteristics
 
 performance    responsiveness    availability    fault-tolerance    scalability/elasticity    data integrity    data consistency    adaptability    extensibility    interoperability    concurrency    deployability    testability    abstraction    workflow    configurability    recoverability    reliability    authorisation    agility    cost    domain-partitioning    evolvability    integration
 
