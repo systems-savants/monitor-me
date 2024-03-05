@@ -2,7 +2,7 @@
 
 ---
 
-# MonitorMe Layered approach to security
+# Layered approach to security
 
 Date: 2024-02-22
 
