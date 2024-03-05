@@ -67,16 +67,14 @@ Here's our [five-minute video presentation](https://www.linkedin.com/in/vishalga
 Actors, Actions, and Components
 
 **First Draft**
+
 ![actor-action-component-1](assets/images/actor-action-component-1.png)
 
 
 **Final Version**
+
 ![actor-action-component-2](assets/images/actor-action-component-2.png)
 
-
-#### Candidate Architecture Characteristics
-
-performance    responsiveness    availability    fault-tolerance    scalability/elasticity    data integrity    data consistency    adaptability    extensibility    interoperability    concurrency    deployability    testability    abstraction    workflow    configurability    recoverability    reliability    authorisation    agility    cost    domain-partitioning    evolvability    integration
 
 ### Selected Architecture Characteristics
 
@@ -97,8 +95,6 @@ The following are a bedrock of architecture characteristics. They may not affect
 - Security, authentication and authorization
 - Maintainability
 - Simplicity or observability
-
-Note that Configurability was considered for patients.
 
 ![Architectural Characteristics](../assets/images/Architectural-characteristics-WS.png)
 
