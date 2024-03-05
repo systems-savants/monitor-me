@@ -2,7 +2,7 @@
 
 ---
 
-# Observability (Monitor Systems and Trace Apps)
+# Telemetry and Observability With Elastic and Kibana
 
 Date: 2024-02-22
 
