@@ -21,25 +21,23 @@ Here's our [five-minute video presentation](https://www.linkedin.com/in/vishalga
 ## Table of Contents 
 ```
 1. Problem Background
-  StayHealthy Inc. and MonitorMe
-  Functional Requirements
-  Glossary 
+  1.1 StayHealthy Inc. and MonitorMe
+  1.2 Functional Requirements
+  1.3 Glossary 
 2. Problem Analysis
-  Business Goals
-  Business Drivers
-  Engagement Model
-  Other Considerations
+  2.1 Business Goals & Business Drivers
+  2.2 Engagement Model
+  2.3 Other Considerations
 3. Architecture Analysis
-  Architecturally Significant Requirements
-  Constraints and Assumptions
-  Actors, Actions, and Components
-  Key Architecture Characteristics
-  Data Storage Considerations
-  Capacity Planning
-4. Solution Overview
-  High-Level Architecture
-  Deployment Architecture
-5. Architecture Decision Records (ADRs)
+  3.1 Architecturally Significant Requirements
+  3.2 Constraints and Assumptions
+  3.3 Actors, Actions, and Components
+  3.4 Key Architecture Characteristics
+  3.5 Capacity Planning
+  3.6 Data Storage Considerations
+  3.7 Guiding (Architecture) Principles
+  3.8 Architecture Style Selection
+4. Architecture Decision Records (ADRs)
   001-Use-K8s-with-containerize-microservice-architecture-style
   002-Use-API-Gateway-in-self-hosted-mode
   003-Hosting-Platform-On-Prem
@@ -51,10 +49,15 @@ Here's our [five-minute video presentation](https://www.linkedin.com/in/vishalga
   009-IoT-Device-Communication-MQTT-Protocol
   010-Interoperability
   011-Postgre-SQL-for-Data-Storage
+5. Solution Overview
+  5.1 High-Level Architecture
+  5.2 Deployment Architecture
 
 ```
   
-## Problem Background
+## 1. Problem Background
+
+### 1.1 StayHealthy, Inc. & MonitorMe
 
 ### StayHealthy, Inc.
 
@@ -67,7 +70,8 @@ StayHealthy, Inc. is a large and highly successful medical software company loca
 ### MonitorMe - The Architecture Katas Challenge
 MonitorMe is a new system (designed by Systems Savants) for StayHealthy, Inc. MonitorMe is a packaged hardware and software solution that must be installed on-premises at hospital locations, within the (IT) security bounds of the hospital organization, with means to integrate with external systems like MyMedicalData for Electronic Health Record (EHR) integration.  
 
-### Functional Requirements
+
+### 1.2 Functional Requirements
 MonitorMe reads data from eight different patient-monitoring equipment vital sign input sources: heart rate, blood pressure, oxygen level, blood sugar, respiration rate, electrocardiogram (ECG), body temperature, and
 sleep status (sleep or awake). It then sends the data to a consolidated monitoring screen (per nurses station) with an average response time of 1 second or less. The consolidated monitoring screen displays each patients
 vital signs, rotating between patients every 5 seconds. There is a maximum of 20 patients per nurses station. 
@@ -115,7 +119,7 @@ MonitorMe's architecture should also consider the following:
 * StayHealthy, Inc. has always taken patient confidentially seriously. MonitorMe should be no exception to this rule. While patient monitoring data must be secure, MonitorMe does not have to meet any government
 regulatory requirements (e.g., HIPPA).
 
-## Glossary
+### 1.3 Glossary
 
 The following are terms used in this documentation that may not be clear to all readers, and so are defined below.
 
@@ -127,9 +131,11 @@ The following are terms used in this documentation that may not be clear to all 
 | MonitorMe         | The system to which this architecture documentation relates. |
 | EHR Integration         | Electronic Health Record Integration in MonitorMe's scenario refers to integrating with MyMedicalData only. |
 
-[> Home](../README.md)  |  [< Prev](../1.ProblemBackground/StayHealthy.md)  |  [Next >](FunctionalRequirements.md)
 
-## Problem Analysis
+
+## 2. Problem Analysis
+
+### 2.1 Business Goals & Drivers
 
 ### Business Goals
 
@@ -145,7 +151,7 @@ By achieving these goals, MonitorMe can help to improve the quality of care for 
 
 StayHealthy, Inc. is now expanding into the medical monitoring market, and is in need of a new medical patient monitoring system for hospitals that monitors a patients vital signs using proprietary medical monitoring devices built by StayHealthy, Inc.
 
-### Engagement Model
+### 2.2 Engagement Model
 
 MonitorMe's main personas are:
 
@@ -165,15 +171,16 @@ Here's a table summarizing the key characteristics of MonitorMe's target clients
 | Individual Patients | Have chronic conditions, recovering from surgery, in critical care | Continuous monitoring, timely alerts, improved care outcomes. |
 | Healthcare Providers & Staff| Hospitals, clinics, nursing homes, home healthcare agencies | Improved patient care, reduced costs, operational efficiency. |
 
-### Other Considerations 
+### 2.3 Other Considerations 
 
 1. Intuitive and Easy-to-Use consolidated vital data screen for Nurses which makes easy to understand data patterns
 2. Section 508 compliance: Section 508 of the Rehabilitation Act (29 U.S.C. 794d), as amended in 1998, is a federal law that requires agencies to provide individuals with disabilities equal access to electronic information and data comparable to those who do not have disabilities, unless an undue burden would be imposed on the agency.
 3. HiTrust Certification: HITRUST provides a benchmark — a standardized compliance framework, assessment, and certification process — against which cloud service providers and covered health entities can measure compliance.
-4. SOC2 Compliance: SOC 2, aka Service Organization Control Type 2, is a cybersecurity compliance framework developed by the American Institute of Certified Public Accountants (AICPA). The primary purpose of SOC 2 is to ensure that third-party service providers store and process client data in a secure manner.
+4. SOC2 Compliance: SOC2, aka Service Organization Control Type 2, is a cybersecurity compliance framework developed by the American Institute of Certified Public Accountants (AICPA). The primary purpose of SOC 2 is to ensure that third-party service providers store and process client data in a secure manner.
 
+## 3. Architecture Analysis
 
-## Architecturally Significant Requirements 
+### 3.1 Architecturally Significant Requirements 
 
 **Non-functional requirements are functional requirements! Say it a few more times and it will sink in.**  
 
@@ -210,6 +217,8 @@ MonitorMe users can customize patients vital sign threshold settings so that vit
 ### 4. Third party Integrations
 
 MonitorMe has integrations with systems that live outside of the hospital (IT) boundary party. Ex: MyMedicalData.
+
+## 3.2 Constraints & Assumptions
 
 ## Constraints
 
@@ -264,33 +273,6 @@ MonitorMe has integrations with systems that live outside of the hospital (IT) b
 * The IT Staff at the hospital will serve as the first line of support for Level-0 troubleshooting and monitoring of MonitorMe as a self-serve system. StayHealthy, Inc. tech support will get involved in L1 and L2 escalations.
 
 
-
-## Solution Structure
-
-[Problem Background](1.ProblemBackground/README.md)
-
-- [Business Goals, Drivers & Requirements](1.ProblemBackground/BusinessGoalsDriversAndRequirements.md)
-- [Stakeholder Concerns](1.ProblemBackground/StakeholderConcerns.md)
-- [Architecture Analysis](1.ProblemBackground/ArchitectureAnalysis.md)
-- [Actors, Actions & Components](1.ProblemBackground/ActorsActionsAndComponents.md)
-- [Constraints & Assumptions](1.ProblemBackground/ConstraintsAndAssumptions.md)
-- [RAID Log](1.ProblemBackground/RAID.md)
-
-
-[Solution Background](2.SolutionBackground/README.md)
-
-- [Architecture Principles](2.SolutionBackground/ArchitecturePrinciples.md)
-- [Overall Architecture Style Analysis](2.SolutionBackground/ArchitecturePatterns.md)
-- [Conceptual System Design](2.SolutionBackground/Conceptual.md)
-- [Data Store Solution](2.SolutionBackground/DataStore.md)
-- [Security](2.SolutionBackground/Security.md)
-- [Deployment](2.SolutionBackground/Deployment.md)
-- [ADRs](4.ADRs/README.md)
-
-
-[Views & Perspectives](3.ViewsAndPerspectives/README.md)
-
-- [C4 Models](3.ViewsAndPerspectives/C4Models/README.md)
 
 ## Resources <a href='#' id='resources'></a>
 
