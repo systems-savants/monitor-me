@@ -2,13 +2,13 @@
 
 ---
 
-# Problem Background
+# 1. Problem Background
 
-[StayHealthy, Inc. and MonitorMe](1.1.StayHealthy.md)
+[1.1 StayHealthy, Inc. and MonitorMe](1.1.StayHealthy.md)
 
-[Functional Requirements](1.2.FunctionalRequirements.md)
+[1.2 Functional Requirements](1.2.FunctionalRequirements.md)
 
-[Glossary](1.3.Glossary.md)
+[1.3 Glossary](1.3.Glossary.md)
 
 ------
 
