@@ -6,7 +6,7 @@
 
 [StayHealthy, Inc. and MonitorMe](1.1.StayHealthy.md)
 
-[Functional Requirements](FunctionalRequirements.md)
+[Functional Requirements](1.2.FunctionalRequirements.md)
 
 
 ------
