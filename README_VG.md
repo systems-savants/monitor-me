@@ -59,9 +59,9 @@ Here's our [five-minute video presentation](https://www.linkedin.com/in/vishalga
 
 [1. Problem Background](1.%20Problem%20Background/README.md)
 
-[2. Problem Analysis] (2.%20Problem%20Analysis/README.md)
+[2. Problem Analysis](2.%20Problem%20Analysis/README.md)
 
-[3. Architecture Analysis] (3.%20Architecture%20Analysis/README.md)
+[3. Architecture Analysis](3.%20Architecture%20Analysis/README.md)
 
 
 ### Actors, Actions, and Components
