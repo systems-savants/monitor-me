@@ -500,7 +500,7 @@ The above matrix gives us two candidates for our architecture, which need furthe
 
 **(Microservices) Expanded Containter Diagram:**
 
-![MonitorMe_C4_model-C2-Container-Expanded](../assets/Diagrams/MonitorMe_C4_model-C2-Container-Expanded.png)
+![MonitorMe_C4_model-C2-Container-Expanded](assets/Diagrams/MonitorMe_C4_model-C2-Container-Expanded.png)
 
 ## 5.4 Deployment Diagram
 
