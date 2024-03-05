@@ -98,11 +98,13 @@ The following are a bedrock of architecture characteristics. They may not affect
 
 ![Architectural Characteristics](assets/images/Architectural-characteristics-WS.png)
 
+
 ### Capacity Planning
 
 ![CapacityPlanning](assets/images/CapacityPlanningData.png)
 
-## Architecture Style Analysis & Selection
+
+### Architecture Style Analysis & Selection
 
 The above characteristics are highlighted below in green, with data integrity, above, not included in the matrix below. Data integrity will be a key architecture characteristic of the [data store selected](DataStore.md), along with the interface to this data store.
 
@@ -115,15 +117,18 @@ The above characteristics are highlighted below in green, with data integrity, a
 
 [5. Proposed Solution](3.%20Architecture%20Analysis/README.md) 
 
+
 ### Nurse Station Dashboard
 
 **Nurse Station Dashboard View**
 ![Nurse Station Dashboard View](assets/images/Dashboard.webp)
 
+
 ### Medical Professional Mobile App View
 
 **Medical Professional Mobile App View**
 ![Medical Professional Mobile App View](assets/images/MobileApp.webp)
+
 
 ### High-Level Architecture Diagram using the C4 Model
 
@@ -137,14 +142,18 @@ The above characteristics are highlighted below in green, with data integrity, a
 
 ![MonitorMe_C4_model-C2-Container-Simplified](assets/Diagrams/MonitorMe_C4_model-C2-Container-Simplified.png)
 
+
 **(Microservices) Expanded Containter Diagram (C2) **
 
 ![MonitorMe_C4_model-C2-Container-Expanded](assets/Diagrams/MonitorMe_C4_model-C2-Container-Expanded.png)
 
 
+
 ### Deployment Diagram [Hybrid/Private Cloud using On-premises AWS Outposts Servers]
 
 ![Deployment/Infrastructure Architecture](assets/Diagrams/MonitorMe_Deployment_Diagram.png)
+
+
 
 ## Resources <a href='#' id='resources'></a>
 
