@@ -54,8 +54,10 @@ Here's our [five-minute video presentation](https://www.linkedin.com/in/vishalga
   5.2 Deployment Architecture
 
 ```
-  
-**### 1. [Problem Background] (1.%20Problem%20Background/README.md) **
+
+[1. Problem Background](1.%20Problem%20Background/README.md)
+
+
 
 **### 2. [Problem Analysis] (2.%20Problem%20Analysis/README.md) **
 
