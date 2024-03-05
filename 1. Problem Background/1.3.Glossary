@@ -1,0 +1,11 @@
+## Glossary
+
+The following are terms used in this documentation that may not be clear to all readers, and so are defined below.
+
+| Term                   | Definition                                                   |
+| ---------------------- | ------------------------------------------------------------ |
+| IT Staff  | An IT user associated with the Hospital, employed by the hospital, who has means to observe, monitor, and troubleshoot MonitorMe's IoT devices, software, and hardware on-premises for L0 support. |
+| Patient                | person who is receiving medical treatment from a doctor or hospital and using MonitorMe's proprietary IoT devices for health vital monitoring. |
+| Medical Professional   | Doctors, Nurses, other medical staff that use MonitorMe systems. |
+| MonitorMe         | The system to which this architecture documentation relates. |
+| EHR Integration         | Electronic Health Record Integration in MonitorMe's scenario refers to integrating with MyMedicalData only. |
