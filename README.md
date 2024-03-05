@@ -57,7 +57,7 @@ Here's our [five-minute video presentation](https://www.linkedin.com/in/vishalga
 
 ```
 
-## Highlights
+## Solution Highlights
 
 [1. Problem Background](1.%20Problem%20Background/README.md)
 
@@ -78,7 +78,7 @@ Actors, Actions, and Components
 ![actor-action-component-2](assets/images/actor-action-component-2.png)
 
 
-### Selected Architecture Characteristics
+#### Selected Architecture Characteristics
 
 | Top 3 | Characteristic               | Source                                                       |
 | ----- | ---------------------------- | ------------------------------------------------------------ |
@@ -89,7 +89,7 @@ Actors, Actions, and Components
 | Y     | High Availability            | System needs to be available all the times as the medical professional need to monitor patients vitals and take decision based on them. |
 |       | Deployability                | We are proposing a micro service architecture with a service for each device ,being able to deploy the whole system seemlessly is important. |
 
-### Implicit Architecture Characteristics
+#### Implicit Architecture Characteristics
 
 The following are a bedrock of architecture characteristics. They may not affect the *structure* but will feed into the overall architecture.
 
@@ -101,12 +101,12 @@ The following are a bedrock of architecture characteristics. They may not affect
 ![Architectural Characteristics](assets/images/Architectural-characteristics-WS.png)
 
 
-### Capacity Planning
+#### Capacity Planning
 
 ![CapacityPlanning](assets/images/CapacityPlanningData.png)
 
 
-### Architecture Style Analysis & Selection
+#### Architecture Style Analysis & Selection
 
 The above characteristics are highlighted below in green, with data integrity, above, not included in the matrix below. Data integrity will be a key architecture characteristic of the [data store selected](DataStore.md), along with the interface to this data store.
 
@@ -120,19 +120,15 @@ The above characteristics are highlighted below in green, with data integrity, a
 [5. Proposed Solution](3.%20Architecture%20Analysis/README.md) 
 
 
-### Nurse Station Dashboard
-
 **Nurse Station Dashboard View**
 ![Nurse Station Dashboard View](assets/images/Dashboard.webp)
 
-
-### Medical Professional Mobile App View
 
 **Medical Professional Mobile App View**
 ![Medical Professional Mobile App View](assets/images/MobileApp.webp)
 
 
-### High-Level Architecture Diagram using the C4 Model
+#### High-Level Architecture Diagram using the C4 Model
 
 **Simplified Context Diagram (C1)**
 
