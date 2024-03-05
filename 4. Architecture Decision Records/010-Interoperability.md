@@ -1,8 +1,8 @@
-[> Home](../README.md)    [> ADRs](README.md)
+[> Home](../README.md)  |  [> Architecture Decision Records](README.md) |  [< Prev](009-IoT-Device-Communication-MQTT-Protocol.md)  |  [Next >](011-Postgre-SQL-for-Data-Storage.md)
 
 ---
 
-# Interoperability (Data Exchange)
+# 010 - Interoperability (Data Exchange)
 
 Date: 2024-02-22
 
@@ -28,4 +28,4 @@ need to think what might make for good shared key for more common queries
 
 ---
 
-[> Home](../README.md)    [> ADRs](README.md)
+[> Home](../README.md)  |  [> Architecture Decision Records](README.md) |  [< Prev](009-IoT-Device-Communication-MQTT-Protocol.md)  |  [Next >](011-Postgre-SQL-for-Data-Storage.md)
