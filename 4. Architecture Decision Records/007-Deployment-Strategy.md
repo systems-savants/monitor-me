@@ -1,8 +1,8 @@
-[> Home](../README.md)    [> ADRs](README.md)
+[> Home](../README.md)  |  [> Architecture Decision Records](README.md) |  [< Prev](006-Layered-approach-to-security.md)  |  [Next >](008-Use-of-Infrastructure-as-Code-(IaC).md)
 
 ---
 
-# Deployment Strategy
+# 007 - Deployment Strategy
 
 Date: 2024-02-22
 
