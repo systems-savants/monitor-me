@@ -16,6 +16,10 @@
 
 [3.6 Data Storage Considerations](3.6.DataStore.md)
 
+[3.7 Guiding (Architecture) Principles](3.7.GuidingPrinciples.md)
+
+[3.8 Architecture Style Selection](3.8.ArchitectureStyleSelection.md)
+
 ------
 
 [> Home](../README.md)  |  [Next >](3.1.ArchitecturallySignificantRequirements.md)
