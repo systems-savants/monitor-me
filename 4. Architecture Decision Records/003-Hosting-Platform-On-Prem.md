@@ -1,8 +1,8 @@
-[> Home](../README.md)    [> ADRs](README.md)
+[> Home](../README.md)  |  [> Architecture Decision Records](README.md) |  [< Prev](002-Use-API-Gateway-in-self-hosted-mode.md)  |  [Next >](004-System-Design-Approach.md)
 
 ---
 
-# Hosting Platform On Prem - AWS Outposts Servers
+# 003 - Hosting Platform On Prem - AWS Outposts Servers
 
 Date: 2024-02-22
 
@@ -39,4 +39,4 @@ The requirement is met along with the ability to run cloud-native technologies o
 
 - Capacity management
 
-[> Home](../README.md)    [> ADRs](README.md)
+[> Home](../README.md)  |  [> Architecture Decision Records](README.md) |  [< Prev](002-Use-API-Gateway-in-self-hosted-mode.md)  |  [Next >](004-System-Design-Approach.md)
