@@ -18,9 +18,38 @@ Here's our [five-minute video presentation](https://www.linkedin.com/in/vishalga
 - Subodh Gupta [[LinkedIn](https://www.linkedin.com/in/pending/)]
 
 
-# MonitorMe - Problem Background, Requirements, Business Goals, Drivers, and Operating Model 
-
-### Problem Background
+## Table of Contents 
+```
+I. Problem Background
+  [StayHealthy Inc. and MonitorMe](https://www.linkedin.com/in/vishalgamji/)
+  Functional Requirements
+II. Business Goals & Drivers
+III. Engagement Model
+  Immediate Business Goals
+  Long Term Business Goals
+  Business Opportunity
+  Competitors
+IV. Use Cases
+  Customer Journey
+  Case 1. Customer orders via PoS
+  Case 2. Customer orders online
+  Maintenance and Failure Operations
+V. Requirements
+  Prioritized Architecture Characteristics
+    1. Enable Discovery - Agility
+    2. Affordable DevSecOps - Viability
+    3. Easy to Pivot - Flexibility
+    4. Availability
+    5. Security
+    6. Scalability
+    7. Performance
+  Design Constraints
+VI. High-Level Architecture
+  Web/Mobile Experience
+  Offline Strategy for Smart Fridges
+```
+  
+## Problem Background
 
 #### StayHealthy, Inc.
 
