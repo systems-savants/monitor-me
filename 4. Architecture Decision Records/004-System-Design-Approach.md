@@ -1,8 +1,8 @@
-[> Home](../README.md)    [> ADRs](README.md)
+[> Home](../README.md)  |  [> Architecture Decision Records](README.md) |  [< Prev](003-Hosting-Platform-On-Prem.md)  |  [Next >](005-Telemetry-Observability-with-Elastic.md)
 
 ---
 
-# System Design Approach
+# 004 - System Design Approach
 
 Date: 2024-02-22
 
@@ -45,4 +45,4 @@ Both microservices and event driven architecture are good choices for scalabilit
 
 ---
 
-[> Home](../README.md)    [> ADRs](README.md)
+[> Home](../README.md)  |  [> Architecture Decision Records](README.md) |  [< Prev](003-Hosting-Platform-On-Prem.md)  |  [Next >](005-Telemetry-Observability-with-Elastic.md)
