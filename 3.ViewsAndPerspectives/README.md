@@ -13,11 +13,7 @@ The C4 Models depict a set of abstractions used to describe the solution archite
 - Container Diagram (Level 2) - Simplified
 - Container Diagram (Level 2) - Microservices Expanded
 
-**Nurse Station Dashboard View**
-![Nurse Station Dashboard View](../assets/images/Dashboard.webp)
 
-**Medical Professional Mobile App View**
-![Medical Professional Mobile App View](../assets/images/MobileApp.webp)
 
 
 
