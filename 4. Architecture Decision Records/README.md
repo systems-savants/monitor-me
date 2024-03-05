@@ -11,7 +11,7 @@
 
 [003 Hosting Platform On Premises](003-Hosting-Platform-On-Prem.md)
 
-[004 System Approach](004-System-Design-Approach.md)
+[004 System Design Approach](004-System-Design-Approach.md)
 
 [005 Observability (Monitor Systems and Trace Apps)](005-Telemetry-Observability-with-Elastic.md)
 
