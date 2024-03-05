@@ -17,15 +17,15 @@
 
 [006 Layered approach to security](006-Layered-approach-to-security.md)
 
-[007 Deployment Strategy](008-Deployment-Strategy.md)
+[007 Deployment Strategy](007-Deployment-Strategy.md)
 
-[008 Use of Infrastructure as Code (IaC)](009-Use-of-Infrastructure-as-Code-(IaC).md)
+[008 Use of Infrastructure as Code (IaC)](008-Use-of-Infrastructure-as-Code-(IaC).md)
 
-[009 IoT Device Communication - MQTT Protocol](010-IoT-Device-Communication-MQTT-Protocol.md)
+[009 IoT Device Communication - MQTT Protocol](009-IoT-Device-Communication-MQTT-Protocol.md)
 
-[010 Interoperability (Data Exchange)](011-Interoperability.md)
+[010 Interoperability (Data Exchange)](010-Interoperability.md)
 
-[011 Postgre SQL for Data Storage](012-Postgre-SQL-for-Data-Storage.md)
+[011 Postgre SQL for Data Storage](011-Postgre-SQL-for-Data-Storage.md)
 
 
 ------
