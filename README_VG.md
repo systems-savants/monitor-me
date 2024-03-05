@@ -17,11 +17,12 @@ Here's our [five-minute video presentation](https://www.linkedin.com/in/vishalga
 - Harshada Kandalgaonkar [[LinkedIn](https://www.linkedin.com/in/harshada-kandalgaonkar/)]
 - Subodh Gupta [[LinkedIn](https://www.linkedin.com/in/pending/)]
 
-# MonitorMe - Problem Background, Requirements, Goals, and Drivers 
 
-## Problem Background
+# MonitorMe - Problem Background, Requirements, Business Goals, Drivers, and Operating Model 
 
-### StayHealthy, Inc.
+### Problem Background
+
+#### StayHealthy, Inc.
 
 StayHealthy, Inc. is a large and highly successful medical software company located in San Francisco, CA, US. They currently have two popular cloud-based SaaS products: MonitorThem and MyMedicalData.
 
@@ -29,7 +30,7 @@ StayHealthy, Inc. is a large and highly successful medical software company loca
 
 *MyMedicalData* is a comprehensive cloud-based patient medical records system used by doctors, nurses, and other heath professionals to record and track a patients heath records with guaranteed partitioning between patient records.
 
-### MonitorMe
+#### MonitorMe - The Architecture Katas Challenge
 MonitorMe is a new system (designed by Systems Savants) for StayHealthy, Inc. MonitorMe is a packaged hardware and software solution that must be installed on-premises at hospital locations, within the (IT) security bounds of the hospital organization, with means to integrate with external systems like MyMedicalData for Electronic Health Record (EHR) integration.  
 
 ### Functional Requirements
@@ -70,7 +71,17 @@ installation of the complete MonitorMe system (including the recorded raw monito
 stores, databases, and other technical tools and products are unspecified at this time and will be based on your
 on-prem architectural solution.
 
-## Business Goals
+MonitorMe's architecture should also consider the following:
+* StayHealthy, Inc. is looking towards adding more vital sign monitoring devices for MonitorMe in the future.
+
+* Vital sign data analyzed and recorded through MonitorMe must be as accurate as possible. After all, human lives are at stake.
+
+* As this is a new line of business for StayHealthy, they expect a lot of change as they learn more about this new market.
+  
+* StayHealthy, Inc. has always taken patient confidentially seriously. MonitorMe should be no exception to this rule. While patient monitoring data must be secure, MonitorMe does not have to meet any government
+regulatory requirements (e.g., HIPPA).
+
+### Business Goals
 
 1. Ensure accurate and real-time patient monitoring for improved care decisions.
 
@@ -80,13 +91,11 @@ on-prem architectural solution.
 
 By achieving these goals, MonitorMe can help to improve the quality of care for patients, reduce costs for healthcare providers, and save lives.
 
-## Business Drivers 
+### Business Drivers 
 
 StayHealthy, Inc. is now expanding into the medical monitoring market, and is in need of a new medical patient monitoring system for hospitals that monitors a patients vital signs using proprietary medical monitoring devices built by StayHealthy, Inc.
 
-# Requirements and Engagement model
-
-## Engagement Models
+## Engagement Model
 
 ### Clients
 
@@ -108,9 +117,11 @@ Here's a table summarizing the key characteristics of MonitorMe's target clients
 | Individual Patients | Have chronic conditions, recovering from surgery, in critical care | Continuous monitoring, timely alerts, improved care outcomes. |
 | Healthcare Providers| Hospitals, clinics, nursing homes, home healthcare agencies | Improved patient care, reduced costs, operational efficiency. |
 
-## Architecturally Significant Business Requirements
+## Architecturally Significant Requirements 
 
-| # | Significant Architectural Requirements | Business Goal |
+**Non-functional requirements are functional requirements! Say it a few more times and it will sink in.**  
+
+| # | Requirement | Business Goal |
 |----|----|----|
 | 1 | Real-time processing | 1 |
 | 2 | High throughput  | 1 |
@@ -140,12 +151,12 @@ MonitorMe will provide the ability to upload holistic snapshots of a patient's c
 
 MonitorMe users can customize patients vital sign threshold settings so that vital sign devices data analysis can be adjusted for each patient.
 
-### 4. Third party relationships
+### 4. Third party Integrations
 
-MonitorMe has relationships with MyMedicalData.
+MonitorMe has integrations with systems that live outside of the hospital (IT) boundary party. Ex: MyMedicalData.
 
 
-## Significant Non-Functional requirements 
+## Other Requirements 
 
 1. Intuitive and Easy-to-Use consolidated vital data screen for Nurses which makes easy to understand data patterns
 2. Section 508 compliance: Section 508 of the Rehabilitation Act (29 U.S.C. 794d), as amended in 1998, is a federal law that requires agencies to provide individuals with disabilities equal access to electronic information and data comparable to those who do not have disabilities, unless an undue burden would be imposed on the agency.
@@ -158,8 +169,9 @@ The following are assumptions considered when the team worked on creating the sy
 
 | Assumption # | Assumption                                                |
 | ---------------- | ------------------------------------------------------------ |
-| 01               | There is no tight feedback loop, as there is normally when architecting a solution, so it is part of the challenge to get clarity into the architecture as the judges cannot ask questions. |
+| 01               | While MonitorMe doesn't have to comply with HIPAA, the team made an assumption to consider amd list out other regulations like SOC2, HiTrust, Section 508 for designing MonitorMe. |
 | 02               | StayHealthy, Inc. has unlimited budget and resources. |
+| 03               | The IT Staff at the hospital will serve as the first line of support for Level-0 troubleshooting and monitoring of MonitorMe as a self-serve system. StayHealthy, Inc. tech support will get involved in L1 and L2 escalations. |
 
 # Glossary
 
@@ -171,25 +183,8 @@ The following are terms used in this documentation that may not be clear to all 
 | Patient                | person who is receiving medical treatment from a doctor or hospital and using MonitorMe's proprietary IoT devices for health vital monitoring. |
 | Medical Professional   | Doctors, Nurses, other medical staff that use MonitorMe systems. |
 | MonitorMe         | The system to which this architecture documentation relates. |
+| EHR Integration         | Electronic Health Record Integration in MonitorMe's scenario refers to integrating with MyMedicalData only. |
 
-
-
-
------
-StayHealthy, Inc. is a large and highly successful medical software company located in San Francisco,
-California, US. They currently have 2 popular cloud-based SAAS products: MonitorThem and
-MyMedicalData.
-MonitorThem a comprehensive data analytics platform that is used for hospital trend and performance
-analytics—alert response times, patient health problem analytics, patient recovery analysis, and so on.
-MyMedicalData is a comprehensive cloud-based patient medical records system used by doctors,
-nurses, and other heath professionals to record and track a patients heath records with guaranteed
-partitioning between patient records.
-StayHealthy, Inc. is now expanding into the medical monitoring market, and is in need of a new medical
-patient monitoring system for hospitals that monitors a patients vital signs using proprietary medical
-monitoring devices built by StayHealthy, Inc.
------
-
-   
 
 ## Solution Structure
 
