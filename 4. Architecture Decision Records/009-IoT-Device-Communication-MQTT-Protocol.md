@@ -1,8 +1,8 @@
-[> Home](../README.md)    [> ADRs](README.md)
+[> Home](../README.md)  |  [> Architecture Decision Records](README.md) |  [< Prev](008-Use-of-Infrastructure-as-Code-(IaC).md)  |  [Next >](010-Interoperability.md)
 
 ---
 
-# IoT Device Communication
+# 009 - IoT Device Communication
 
 Date: 2024-02-22
 
@@ -28,4 +28,4 @@ Each vital sign will have its own topic and the corresponding microservice will 
 
 ---
 
-[> Home](../README.md)    [> ADRs](README.md)
+[> Home](../README.md)  |  [> Architecture Decision Records](README.md) |  [< Prev](008-Use-of-Infrastructure-as-Code-(IaC).md)  |  [Next >](010-Interoperability.md)
