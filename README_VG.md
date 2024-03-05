@@ -20,15 +20,15 @@ Here's our [five-minute video presentation](https://www.linkedin.com/in/vishalga
 
 ## Table of Contents 
 ```
-I. Problem Background
-  [StayHealthy Inc. and MonitorMe](https://www.linkedin.com/in/vishalgamji/)
+1. Problem Background
+  StayHealthy Inc. and MonitorMe
   Functional Requirements
-II. Business Goals & Drivers
-III. Engagement Model
-  Immediate Business Goals
-  Long Term Business Goals
-  Business Opportunity
-  Competitors
+  Business Goals & Drivers
+  Business Analysis & Engagement Model
+  Architecturally Significant Requirements
+  Other Considerations
+  Assumptions
+  Glossary 
 IV. Use Cases
   Customer Journey
   Case 1. Customer orders via PoS
@@ -193,7 +193,7 @@ MonitorMe has integrations with systems that live outside of the hospital (IT) b
 4. SOC2 Compliance: SOC 2, aka Service Organization Control Type 2, is a cybersecurity compliance framework developed by the American Institute of Certified Public Accountants (AICPA). The primary purpose of SOC 2 is to ensure that third-party service providers store and process client data in a secure manner.
 
 
-# Assumptions
+## Assumptions
 The following are assumptions considered when the team worked on creating the system architecture for MonitorMe. 
 
 | Assumption # | Assumption                                                |
@@ -202,7 +202,7 @@ The following are assumptions considered when the team worked on creating the sy
 | 02               | StayHealthy, Inc. has unlimited budget and resources. |
 | 03               | The IT Staff at the hospital will serve as the first line of support for Level-0 troubleshooting and monitoring of MonitorMe as a self-serve system. StayHealthy, Inc. tech support will get involved in L1 and L2 escalations. |
 
-# Glossary
+## Glossary
 
 The following are terms used in this documentation that may not be clear to all readers, and so are defined below.
 
