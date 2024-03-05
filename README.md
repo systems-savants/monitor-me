@@ -131,13 +131,13 @@ The above characteristics are highlighted below in green, with data integrity, a
 
 ### High-Level Architecture Diagram using the C4 Model
 
-**Simplified Context Diagram (C1)**
+**Context Diagram (C1)**
 ![MonitorMe_C4_model-C1-ContextDiagram](assets/Diagrams/MonitorMe_C4_model-C1-ContextDiagram.png)
 
-### Container Diagram (C2)
+**Container Diagram (C1)**
 ![MonitorMe_C4_model-C2-Container-Simplified](assets/Diagrams/MonitorMe_C4_model-C2-Container-Simplified.png)
 
-**(Microservices) Expanded Container Diagram (C2):**
+**(Microservices Expanded) Container Diagram (C2):**
 ![MonitorMe_C4_model-C2-Container-Expanded](assets/Diagrams/MonitorMe_C4_model-C2-Container-Expanded.png)
 
 
