@@ -144,7 +144,7 @@ The above characteristics are highlighted below in green, with data integrity, a
 
 ### Deployment Diagram [Hybrid/Private Cloud using On-premises AWS Outposts Servers]
 
-![Deployment/Infrastructure Architecture](../assets/Diagrams/MonitorMe_Deployment_Diagram.png)
+![Deployment/Infrastructure Architecture](assets/Diagrams/MonitorMe_Deployment_Diagram.png)
 
 ## Resources <a href='#' id='resources'></a>
 
