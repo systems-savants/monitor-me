@@ -135,7 +135,7 @@ The above characteristics are highlighted below in green, with data integrity, a
 
 **Simplified Container Diagram:**
 
-![MonitorMe_C4_model-C2-Container-Simplified](../assets/Diagrams/MonitorMe_C4_model-C2-Container-Simplified.png)
+![MonitorMe_C4_model-C2-Container-Simplified](assets/Diagrams/MonitorMe_C4_model-C2-Container-Simplified.png)
 
 **(Microservices) Expanded Containter Diagram (C2) **
 
