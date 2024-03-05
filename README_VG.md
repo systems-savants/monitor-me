@@ -116,8 +116,6 @@ MonitorMe's architecture should also consider the following:
 * StayHealthy, Inc. has always taken patient confidentially seriously. MonitorMe should be no exception to this rule. While patient monitoring data must be secure, MonitorMe does not have to meet any government
 regulatory requirements (e.g., HIPPA).
 
-[> Home](../README.md)  |  [< Prev](../1.ProblemBackground/StayHealthy.md)  |  [Next >](FunctionalRequirements.md)
-
 ## Glossary
 
 The following are terms used in this documentation that may not be clear to all readers, and so are defined below.
