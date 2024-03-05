@@ -101,6 +101,7 @@ The following are a bedrock of architecture characteristics. They may not affect
 ![Architectural Characteristics](assets/images/Architectural-characteristics-WS.png)
 
 
+
 #### Capacity Planning
 
 ![CapacityPlanning](assets/images/CapacityPlanningData.png)
