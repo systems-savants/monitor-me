@@ -16,9 +16,11 @@ Infrastructure deployment get complex and repeatable and time consuming and  bor
 we can make good use of infrastructure as code languages and tool assisted generators to create infrastcuce and deployment more reliableThese declarative specifications describe the desired state in favour of the steps to reach such a state. Infrastructure as code is a way to script the declarative specification using a Domain Specific Language or a General Programming Language.
 
 ## Decision
-Infrastructure as Code to build infrastructure and prevent drift and allows us to run architectural fitness functions on the specification instead of the run-time environment. This in turn allows us to test many scenarios without actually setting the deployment of the infrastructure in motion. We are guaranteed to run the tests against what will in fact be deployed when we decide to execute the specification. Therefore, creating a very agile and evolvable ecosystem.
+Infrastructure as Code to build infrastructure and prevent drift and allows us to run architectural fitness functions on the specification instead of the run-time environment. This in turn allows us to test many scenarios without actually setting the deployment of the infrastructure in motion. We are guaranteed to run the tests against what will in fact be deployed when we decide to execute the specification. Therefore, creating a very agile and evolvable ecosystem. 
 
 We can recommend Terraform to deploy kubernetes cluster, since it's declarative means what you want to build rather than how, it's multi vendor and also support kubernetes cluster to rollout container to deploy micro service features that assist the infrastructure engineer using visual designers but also checks on valid configurations. 
+
+This will also help deploy 3rd party components like the Ambassador API Gateway and the MQTT component in containers, which supports the packaged deployment model for MonitorMe. 
 
 ## Consequences
 The team will lose the ability to make ad-hoc changes without causing drift. Depending on the drift detection settings this may result in operational issues. Possibly even worse, you may assume the desired state while not being aware of the drift.
