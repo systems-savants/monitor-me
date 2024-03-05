@@ -15,7 +15,7 @@
 
 [005 Telemetry and Observability with Elastic and Kibana](005-Telemetry-Observability-with-Elastic.md)
 
-[006 Layered approach to security](007-Layered-approach-to-security.md)
+[006 Layered approach to security](006-Layered-approach-to-security.md)
 
 [007 Deployment Strategy](008-Deployment-Strategy.md)
 
