@@ -4,7 +4,7 @@
 
 > This documentation repository is hosted on GitHub here: [https://github.com/systems-savants/monitor-me](https://github.com/systems-savants/monitor-me)
 
-Welcome to the System Savant's entry to the O'Reilly Winter 2024 Architectural Katas. We, the System Savants group, are a team of engineers from the health insurance and health services sector. With a (common) objectives of learning and having fun, the team embarked on journey to create a solution for the stated problem. The aim of this documentation git repository is to communicate our design for the problem described for technical and non-technical team audiences alike.
+Welcome to the System Savant's entry to the O'Reilly Winter 2024 Architectural Katas. We, the System Savants group, are a team of engineers from the health insurance and health services sector. With common objectives of learning and having fun, the team embarked on journey to create a solution for the stated problem. The aim of this documentation git repository is to communicate our design for the problem described for technical and non-technical team audiences alike.
 
 <img src="assets/images/syst_savants_logo.png" alt="The Systems Savants logo" style="zoom:50%;" height="250" width="250" />
 
