@@ -33,26 +33,26 @@ Here's our [five-minute video presentation](https://www.linkedin.com/in/vishalga
   Architecturally Significant Requirements
   Constraints
   Assumptions
+4. Solution Overview
   Actors, Actions, and Components
   Key Architecture Characteristics
-IV. Use Cases
-  Customer Journey
-  Case 1. Customer orders via PoS
-  Case 2. Customer orders online
-  Maintenance and Failure Operations
-V. Requirements
-  Prioritized Architecture Characteristics
-    1. Enable Discovery - Agility
-    2. Affordable DevSecOps - Viability
-    3. Easy to Pivot - Flexibility
-    4. Availability
-    5. Security
-    6. Scalability
-    7. Performance
-  Design Constraints
-VI. High-Level Architecture
-  Web/Mobile Experience
-  Offline Strategy for Smart Fridges
+  Capacity Planning
+  High-Level Architecture
+  Data Storage Considerations
+  Deployment Architecture
+5. Architecture Decision Records (ADRs)
+  001-Use-K8s-with-containerize-microservice-architecture-style
+  002-Use-API-Gateway-in-self-hosted-mode
+  003-Hosting-Platform-On-Prem
+  004-System-Approach
+  005-Telemetry-Observability-with-Elastic
+  006-Layered-approach-to-security
+  007-Deployment-Strategy
+  008-Use-of-Infrastructure-as-Code-(IaC)
+  009-IoT-Device-Communication-MQTT-Protocol
+  010-Interoperability
+  011-Postgre-SQL-for-Data-Storage
+
 ```
   
 ## Problem Background
@@ -130,6 +130,7 @@ The following are terms used in this documentation that may not be clear to all 
 | MonitorMe         | The system to which this architecture documentation relates. |
 | EHR Integration         | Electronic Health Record Integration in MonitorMe's scenario refers to integrating with MyMedicalData only. |
 
+[> Home](../README.md)  |  [< Prev](../1.ProblemBackground/StayHealthy.md)  |  [Next >](FunctionalRequirements.md)
 
 ## Problem Analysis
 
