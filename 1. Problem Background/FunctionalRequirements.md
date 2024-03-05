@@ -1,4 +1,4 @@
-[> Home](../README.md)  |  [> Problem Background Dir](README.md) |  [< Prev](StayHealthy.md)  |  [Next >](003-Hosting-Platform-On-Prem.md)
+[> Home](../README.md)  |  [> Problem Background Dir](README.md) |  [< Prev](1.1.StayHealthy.md)  |  [Next >](003-Hosting-Platform-On-Prem.md)
 
 ---
 ### Functional Requirements
@@ -50,4 +50,4 @@ MonitorMe's architecture should also consider the following:
 regulatory requirements (e.g., HIPPA).
 
 ---
-[> Home](../README.md)  |  [> Problem Background Dir](README.md) |  [< Prev](StayHealthy.md)  |  [Next >](003-Hosting-Platform-On-Prem.md)
+[> Home](../README.md)  |  [> Problem Background Dir](README.md) |  [< Prev](1.1.StayHealthy.md)  |  [Next >](003-Hosting-Platform-On-Prem.md)
