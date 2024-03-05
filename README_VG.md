@@ -17,32 +17,9 @@ Here's our [five-minute video presentation](https://www.linkedin.com/in/vishalga
 - Harshada Kandalgaonkar [[LinkedIn](https://www.linkedin.com/in/harshada-kandalgaonkar/)]
 - Subodh Gupta [[LinkedIn](https://www.linkedin.com/in/pending/)]
 
-## Solution Structure
+# MonitorMe - Problem Background, Requirements, Goals, and Drivers 
 
-## Assumptions
-The following are assumptions considered when the team worked on creating the system architecture for MonitorMe. 
-
-| Assumption # | Assumption                                                |
-| ---------------- | ------------------------------------------------------------ |
-| 01               | There is no tight feedback loop, as there is normally when architecting a solution, so it is part of the challenge to get clarity into the architecture as the judges cannot ask questions. |
-| 02               | StayHealthy, Inc. has unlimited budget and resources. |
-
-# Glossary
-
-The following are terms used in this documentation that may not be clear to all readers, and so are defined below.
-
-| Term                   | Definition                                                   |
-| ---------------------- | ------------------------------------------------------------ |
-| IT Staff  | An IT user associated with the Hospital, employed by the hospital, who has means to observe, monitor, and troubleshoot MonitorMe's IoT devices, software, and hardware on-premises for L0 support. |
-| Patient                | person who is receiving medical treatment from a doctor or hospital and using MonitorMe's proprietary IoT devices for health vital monitoring. |
-| Medical Professional   | Doctors, Nurses, other medical staff that use MonitorMe systems. |
-| MonitorMe         | The system to which this architecture documentation relates. |
-
-# Business Goals, Drivers and Requirements
-
-## Background
-
-MonitorMe is a new system (designed by Systems Savants) from the Architectural Katas: winter 2024.
+## Problem Background
 
 ### StayHealthy, Inc.
 
@@ -51,6 +28,47 @@ StayHealthy, Inc. is a large and highly successful medical software company loca
 *MonitorThem* a comprehensive data analytics platform that is used for hospital trend and performance analytics—alert response times, patient health problem analytics, patient recovery analysis, and so on.
 
 *MyMedicalData* is a comprehensive cloud-based patient medical records system used by doctors, nurses, and other heath professionals to record and track a patients heath records with guaranteed partitioning between patient records.
+
+### MonitorMe
+MonitorMe is a new system (designed by Systems Savants) for StayHealthy, Inc. MonitorMe is a packaged hardware and software solution that must be installed on-premises at hospital locations, within the (IT) security bounds of the hospital organization, with means to integrate with external systems like MyMedicalData for Electronic Health Record (EHR) integration.  
+
+### Functional Requirements
+MonitorMe reads data from eight different patient-monitoring equipment vital sign input sources: heart rate, blood pressure, oxygen level, blood sugar, respiration rate, electrocardiogram (ECG), body temperature, and
+sleep status (sleep or awake). It then sends the data to a consolidated monitoring screen (per nurses station) with an average response time of 1 second or less. The consolidated monitoring screen displays each patients
+vital signs, rotating between patients every 5 seconds. There is a maximum of 20 patients per nurses station. 
+
+* For each vital sign, MonitorMe must record and store the past 24 hours of all vital sign readings. A medical professional can review this history, filtering on time range as well as vital sign.
+  
+* In addition to recording raw monitoring data, the MonitorMe software must also analyze each patient’s vital signs and alert a medical professional if it detects an issue (e.g., decrease in oxygen level) or reaches a preset threshold (e.g., temperature has reached 104 degrees F).
+  
+* Some trend and threshold analysis is dependent on whether the patient is awake or asleep. For example, if the blood pressure drops, the system should notice that the patient is asleep and adjust its alerts accordingly.
+The same is true with the respiration rate and heart rate. For example, all of these vital signs are reduced when the patient is asleep, but if awake something might be wrong.
+
+* Medical professionals receive alert push notifications of a potential problem based on raw data analysis to a StayHeathy mobile app on their smart phone as well as the consolidated monitoring screen in each nurses
+station.
+
+* If any of vital sign device (or software) fails, MonitorMe must still function for other vital sign monitoring (monitor, record, analyze, and alert).
+  
+* Medical staff can generate holistic snapshots from a patients consolidated vital signs at any time. Medical staff can then upload the patient snapshot to MyMedicalData. The upload functionality is within the scope of the MonitorMe functionality and is done through a secure HTTP API call within MyMedicalData.
+  
+* Each patient monitoring device transmits vital sign readings at a different rate:
+  Heart rate: every 500ms
+  Blood pressure: every hour
+  Oxygen level: every 5 seconds
+  Blood sugar: every 2 minutes
+  Respiration: every second
+  ECG: every second
+  Body temperature: every 5 minutes
+  Sleep status: every 2 minutes
+
+* MonitorMe will be deployed as an on-premises system. Each physical hospital location will have its own
+installation of the complete MonitorMe system (including the recorded raw monitoring data).
+
+* Maximum number of patients per physical MonitorMe instance: 500
+
+* StayHealthy. Inc. will be providing a comprehensive hardware and software for this system. The platform, data
+stores, databases, and other technical tools and products are unspecified at this time and will be based on your
+on-prem architectural solution.
 
 ## Business Goals
 
@@ -118,13 +136,13 @@ Add a new system to manage patient profiles, allowing medical professionals, per
 
 MonitorMe will provide the ability to upload holistic snapshots of a patient's consolidated vital signs at any time to then upload them into MyMedicalData.
 
-### 7. Profile customization
+### 3. Profile customization
 
 MonitorMe users can customize patients vital sign threshold settings so that vital sign devices data analysis can be adjusted for each patient.
 
-### 8. Third party relationships
+### 4. Third party relationships
 
-MonitorMe has relationships with MeMedicalData.
+MonitorMe has relationships with MyMedicalData.
 
 
 ## Significant Non-Functional requirements 
@@ -133,6 +151,44 @@ MonitorMe has relationships with MeMedicalData.
 2. Section 508 compliance: Section 508 of the Rehabilitation Act (29 U.S.C. 794d), as amended in 1998, is a federal law that requires agencies to provide individuals with disabilities equal access to electronic information and data comparable to those who do not have disabilities, unless an undue burden would be imposed on the agency.
 3. HiTrust Certification: HITRUST provides a benchmark — a standardized compliance framework, assessment, and certification process — against which cloud service providers and covered health entities can measure compliance.
 4. SOC2 Compliance: SOC 2, aka Service Organization Control Type 2, is a cybersecurity compliance framework developed by the American Institute of Certified Public Accountants (AICPA). The primary purpose of SOC 2 is to ensure that third-party service providers store and process client data in a secure manner.
+
+
+# Assumptions
+The following are assumptions considered when the team worked on creating the system architecture for MonitorMe. 
+
+| Assumption # | Assumption                                                |
+| ---------------- | ------------------------------------------------------------ |
+| 01               | There is no tight feedback loop, as there is normally when architecting a solution, so it is part of the challenge to get clarity into the architecture as the judges cannot ask questions. |
+| 02               | StayHealthy, Inc. has unlimited budget and resources. |
+
+# Glossary
+
+The following are terms used in this documentation that may not be clear to all readers, and so are defined below.
+
+| Term                   | Definition                                                   |
+| ---------------------- | ------------------------------------------------------------ |
+| IT Staff  | An IT user associated with the Hospital, employed by the hospital, who has means to observe, monitor, and troubleshoot MonitorMe's IoT devices, software, and hardware on-premises for L0 support. |
+| Patient                | person who is receiving medical treatment from a doctor or hospital and using MonitorMe's proprietary IoT devices for health vital monitoring. |
+| Medical Professional   | Doctors, Nurses, other medical staff that use MonitorMe systems. |
+| MonitorMe         | The system to which this architecture documentation relates. |
+
+
+
+
+-----
+StayHealthy, Inc. is a large and highly successful medical software company located in San Francisco,
+California, US. They currently have 2 popular cloud-based SAAS products: MonitorThem and
+MyMedicalData.
+MonitorThem a comprehensive data analytics platform that is used for hospital trend and performance
+analytics—alert response times, patient health problem analytics, patient recovery analysis, and so on.
+MyMedicalData is a comprehensive cloud-based patient medical records system used by doctors,
+nurses, and other heath professionals to record and track a patients heath records with guaranteed
+partitioning between patient records.
+StayHealthy, Inc. is now expanding into the medical monitoring market, and is in need of a new medical
+patient monitoring system for hospitals that monitors a patients vital signs using proprietary medical
+monitoring devices built by StayHealthy, Inc.
+-----
+
    
 
 ## Solution Structure
