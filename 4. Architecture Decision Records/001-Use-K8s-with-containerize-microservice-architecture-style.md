@@ -1,5 +1,4 @@
-[> Home](../README.md)    [> Architecture Decision Records](README.md)
-[< Prev](001-Use-K8s-with-containerize-microservice-architecture-style.md)  |  [Next >](002-Use-API-Gateway-in-self-hosted-mode.md)
+[> Home](../README.md)  |  [> Architecture Decision Records](README.md) |  [< Prev](001-Use-K8s-with-containerize-microservice-architecture-style.md)  |  [Next >](002-Use-API-Gateway-in-self-hosted-mode.md)
 
 ---
 
@@ -34,5 +33,4 @@ The challenge with increased flexibility is the need to establish some design gu
 
 ---
 
-[> Home](../README.md)    [> Architecture Decision Records](README.md)
-[< Prev](001-Use-K8s-with-containerize-microservice-architecture-style.md)  |  [Next >](002-Use-API-Gateway-in-self-hosted-mode.md)
+[> Home](../README.md)  |  [> Architecture Decision Records](README.md) |  [< Prev](001-Use-K8s-with-containerize-microservice-architecture-style.md)  |  [Next >](002-Use-API-Gateway-in-self-hosted-mode.md)
