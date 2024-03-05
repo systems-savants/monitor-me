@@ -272,7 +272,241 @@ MonitorMe has integrations with systems that live outside of the hospital (IT) b
 * Ethical considerations: The use of AI and data analysis in healthcare raises ethical questions that need to be addressed.
 * The IT Staff at the hospital will serve as the first line of support for Level-0 troubleshooting and monitoring of MonitorMe as a self-serve system. StayHealthy, Inc. tech support will get involved in L1 and L2 escalations.
 
+## 3.3 Actors, Actions, and Components
 
+The Actors on the system (typically the human users but can also include other systems) and the actions they take help to form the key scenarios, or flows, of the system. The following identifies the significant actors, actions and key scenarios that will inform the architecture of the MonitorMe system.
+
+The following are the identified actors, actions, and & components of MonitorMe, note we included the first draft and the final version:
+
+**First Draft**
+![actor-action-component-1](../assets/images/actor-action-component-1.png)
+
+
+**Final Version**
+
+![actor-action-component-2](../assets/images/actor-action-component-2.png)
+
+## Architectural Components
+
+The following are the most architecturally significant scenarios/flows, derived from the Actors and Actions above, which will shape the architecture of the MonitorMe system.
+
+### 01  Onboard Patient to MonitorMe
+
+A patient is connected to all the patient-monitoring devices to collect the patient's vital signs.
+
+### 02 Share Patient's Vital Signs Data with MonitorMe and Nurse's station
+
+The patient's vital signs data is streamed to MonitorMe to be analyzed and then send to a consolidated monitoring screen per nurse station.
+
+### 03 Medical Professionals receive alert push notifications
+
+If any of vital sign device (or software) fails, MonitorMe must still function and sent alert push notifications to a StayHealthy mobile app as well as to the consolidated monitoring screen in each nurses station.
+
+### 04 Medical Professionals can generate holistic snapshots
+
+Medical professionals can generate holistic snapshots from a patient's consolidated vital signs at any time and then upload the patient's holistic snapshot to MyMedicalData.
+
+## 3.4 Key Architecture Characteristics
+
+By identifying the key architecture characteristics (capabilities) for this solution we can then identify the toward which *architecture style we are push toward* hence our *best* solution. Best practice is to identify seven or less architecture characteristics (capabilities). These, along with the implicit architecture characteristics, will then feed into the overall architecture of the MonitorMe system.
+
+### Candidate Architecture Characteristics
+
+performance    responsiveness    availability    fault-tolerance    scalability/elasticity    data integrity    data consistency    adaptability    extensibility    interoperability    concurrency    deployability    testability    abstraction    workflow    configurability    recoverability    reliability    authorisation    agility    cost    domain-partitioning    evolvability    integration
+
+### Selected Architecture Characteristics
+
+| Top 3 | Characteristic               | Source                                                       |
+| ----- | ---------------------------- | ------------------------------------------------------------ |
+| Y     | Interoperability/Integration | Integration of patient's vital sign devices with MonitorMe (analyzing streaming data), and with MyMedicalData. |
+|       | Data Integrity               | Vital sign data analyzed and recorded through MonitorMe must be as accurate as possible as the human lives are at stake. |
+|       | Scalability/Elasticity       | StayHealthy, Inc. is looking towards adding more vital sign monitoring devices for MonitorMe in the future. |
+| Y     | [Real-Time] Performance      | Vital signs data is send to consolidated monitoring screen with an average response time of 1 second or less. |
+| Y     | High Availability            | System needs to be available all the times as the medical professional need to monitor patients vitals and take decision based on them. |
+|       | Deployability                | We are proposing a micro service architecture with a service for each device ,being able to deploy the whole system seemlessly is important. |
+
+### Implicit Architecture Characteristics
+
+The following are a bedrock of architecture characteristics. They may not affect the *structure* but will feed into the overall architecture.
+
+- Usability
+- Security, authentication and authorization
+- Maintainability
+- Simplicity or observability
+
+Note that Configurability was considered for patients.
+
+![Architectural Characteristics](../assets/images/Architectural-characteristics-WS.png)
+
+
+## 3.5 Capacity Planning
+
+Event creation rates from the requirements were used to plan for hourly and daily capacity needs. Based on daily capacity needs (needed for uploading 24 hour patient snapshot data), the most immediately needed data would be located in a indexed/partitioned set or in a hot-tier.
+
+Data accessed from an archive would go into a cold or passive storage medium i.e. after data retention periods are set. For now, these are not accounted for as part of assumptions.
+
+![CapacityPlanning](../assets/images/CapacityPlanningData.png)
+
+## 3.6 Data Storage Considerations
+
+When considering the MonitorMe system there are three needs for storing data
+
+- Raw patient vital signs
+- Analyze patient vital signs
+- Holistic consolidated patient vital signs
+
+The need for analytics of some data stored in MonitorMe, and for potentially large files, means that more than one type of data store could be optimal for the system (polyglot persistence).
+
+## Considered Data Store Approaches
+
+### Relational
+
+This type of data store is optimal for data that is not highly connected. The need to create relationships via extra tables and joins slows down the storage and retrieval of data and makes the design and maintenance more complex. **Simplicity is an inherent architecture characteristic.**
+
+Relational is an option for data that is not highly connected and not involved in analytics.
+
+<img src="../assets/images/relational.png" width="150" height="150"/>
+
+### MonitorMe Vital Sign Analysis
+
+- The Patient vital sign input sources: heart rate, blood pressure, oxygen level, blood sugar, respiration rate, electrocardiogram (ECG), body temperature, and
+sleep status (sleep or awake).
+- Analyze each patient’s vital signs and alert a medical professional if it detects an issue (e.g., decrease in oxygen level) or reaches a preset
+threshold (e.g., temperature has reached 104 degrees F).
+- Some trend and threshold analysis is dependent on whether the patient is awake or asleep.
+
+
+### Uploading
+
+- Medical staff can generate holistic snapshots from a patients consolidated vital signs at any time. 
+- Medical staff can then upload the patient snapshot to MyMedicalData. 
+- The upload functionality is within the scope of the MonitorMe functionality and is done through a secure HTTP API call within MyMedicalData
+
+## 3.7 Guiding (Architecture) Principles
+
+The following are high-level architecture principles that we shall apply to the architecture of MonitorMe:
+
+## General Architecture
+
+| Principle                         | Rationale                                                    | Implications                                                 |
+| :-------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- |
+| Modular architecture              | Modular design enables components/services to be improved/replaced with ease. | Components/services can be tested/deployed with minimal business disruption. Improved availability and reliability. |
+| Pattern based architecture        | Industry well recognised/proven pattern based architectures will improve re-usability | Less effort to build and maintain systems                    |
+| Compliant with law and regulation | All solutions must be law-abiding and compile with rules and guidance from regulatory bodies | Rules of the road, just follow them!                         |
+
+##  Automation
+
+| Principle                                            | Rationale                                                    | Implications                                                 |
+| :--------------------------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- |
+| Automated process by default and manual by exception | Process automation will bring efficiencies                   | Automated and Optimised processes. Humans can focus on more value added tasks. |
+| Engineering Automation from start                    | Independently testable and deployable components using CI pipelines will improve reliability. | Reliability built into software means reduced time-to-market in later iterations. |
+
+## Data
+
+| Principle              | Rationale                                                    | Implications                                                 |
+| :--------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- |
+| Data is valuable asset | In current era data collected/managed across systems in organisation can be harvested to maximise business benefit. | Business can evolve, adapt based on insights from the data. It covers current and historical data for all objects like customer, product, sales, staff, tickets and feedback. |
+| Access to the data     | system components, humans require access to the data time-to-time. | Data democratisation using appropriate governance and controls will reduce the risk of data loss or need for data replication. |
+
+## Integration
+
+| Principle                                        | Rationale                               | Implications                                                 |
+| :----------------------------------------------- | :-------------------------------------- | :----------------------------------------------------------- |
+| Inter and intra system integration through API's | Services/components need to communicate | Standards based Information exchange across enterprise will benefit organisations. |
+
+## Security
+
+| Principle         | Rationale                                                    | Implications                                      |
+| :---------------- | :----------------------------------------------------------- | :------------------------------------------------ |
+| Secure from Start | Security is not a after thought. Security built into system and process design will provides more security for valuable business data. | Secured and protected organisation in digital era |
+
+## Extend-ability and Maintain-ability
+
+| Principle                     | Rationale                                                    | Implications                                |
+| :---------------------------- | :----------------------------------------------------------- | :------------------------------------------ |
+| System should be extendable   | New functionality will be required to support system evolution. | can support changing business needs.        |
+| System should be Maintainable | Regular maintenance activities, fixing bugs are essential for any operational system. Will be able to perform change reliably and effectively | Least business disruption during the change |
+
+## 3.8 Architecture Style Analysis & Selection
+
+The [key architectural characteristics](3.4.KeyArchitectureCharacteristics.md) that were identified help us to select and overall architecture style. The top three are shown in bold and with a ^.
+
+- **Interoperability ^** 
+- Data Integrity
+- Scalability/Elasticity
+- **[Real-Time] Performance ^**
+- **High Availability ^**
+- Deployability
+
+## Architecture Capabilities Comparison
+
+The above characteristics are highlighted below in green, with data integrity, above, not included in the matrix below. Data integrity will be a key architecture characteristic of the [data store selected](DataStore.md), along with the interface to this data store.
+
+![architectural-styles](../assets/images/architectural-styles-MonitorMe.png)
+
+[original comparison matrix from [DeveloperToArchitect.com](https://www.developertoarchitect.com/downloads/worksheets.html)]
+
+## Architecture Capabilities Analysis
+
+The above matrix gives us two candidates for our architecture, which need further analysis:
+
+### Microservices
+
+| Pros                                                         | Cons                                                         | Mitigations                                                  |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Scores highly on elasticity and scalability, very important for analyzer computation and data access. | Scores low on configurability and workflow, which are not any of our top 3 characteristics. | Configurability is a concern, scoring low, but it is configurability of the patient that is important and not of the system as a whole. |
+| Scores highly on fault-tolerance, important to make sure MonitorMe is not disrupted by a fault in one area. | Middling score on interoperability/integration, important because of integration with patient vital sign devices and MyMedicalData. | The middling interoperability ability can be mitigated by using an interface for integration with patient vital sign devices and MyMedicalData. |
+|                                                              | Requires that the database be split along with each microservice. This would be very complex and another big trade-off. |                                                              |
+|                                                              | Scores low on workflow, which would be a trade-off with workflow being important for onboarding of customers. |                                                              |
+|                                                              | Also scores badly on cost and simplicity. Not key characteristics, but likely to be important to management and lead technologists respectively. |                                                              |
+
+### Event-Driven
+
+| Pros                                                         | Cons                                                         | Mitigations                                                  |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Scores highly on elasticity and scalability, very important for analyzer computation and data access. | Interoperability and configurability score fairly low, which is a concern with interoperability being two of the top three characteristics. | Configurability is a concern, scoring low, but it is configurability of the patient that is important and not of the system as a whole. |
+| Scores highly on fault-tolerance, important to make sure MonitorMe is not disrupted by a fault in one area. | Middling score on interoperability/integration, important because of integration with patient vital sign devices and MyMedicalData. | The middling interoperability ability can be mitigated by using an interface for integration with patient vital sign devices and MyMedicalData. |
+| Workflow scores highly, important for onboarding of patients. | scores badly on simplicity. Not a key characteristic, but likely to be important to lead technologists. |                                                              |
+
+## Conclusion
+
+*Both architecture options have trade-offs, so we decided to go with a commbination of both microservices and event driven.*
+
+## 4. [Architecture Decision Records (ADRs)(/4.%20Architecture%20Decision%20Records/README.md) 
+
+## 5. Proposed Solution
+
+## 5.1 Nurse Station Dashboard
+**Nurse Station Dashboard View**
+![Nurse Station Dashboard View](../assets/images/Dashboard.webp)
+
+## 5.2 Medical Professional Mobile App View
+**Medical Professional Mobile App View**
+![Medical Professional Mobile App View](../assets/images/MobileApp.webp)
+
+## 5.3 High-Level Architecture Diagram using the C4 Model
+
+## Context Diagram (Level 1 - top level)
+
+**Simplified Context Diagram:**
+
+![MonitorMe_C4_model-C1-ContextDiagram](../assets/Diagrams/MonitorMe_C4_model-C1-ContextDiagram.png)
+
+## Container Diagram (Level 2)
+
+**Simplified Container Diagram:**
+
+![MonitorMe_C4_model-C2-Container-Simplified](../assets/Diagrams/MonitorMe_C4_model-C2-Container-Simplified.png)
+
+**(Microservices) Expanded Containter Diagram:**
+
+![MonitorMe_C4_model-C2-Container-Expanded](../assets/Diagrams/MonitorMe_C4_model-C2-Container-Expanded.png)
+
+## 5.4 Deployment Diagram
+
+## Deployment Diagram [Hybrid/Private Cloud using On-premises AWS Outposts Servers]
+
+![Deployment/Infrastructure Architecture](../assets/Diagrams/MonitorMe_Deployment_Diagram.png)
 
 ## Resources <a href='#' id='resources'></a>
 
