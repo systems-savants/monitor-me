@@ -1,8 +1,8 @@
-[> Home](../README.md)    [> ADRs](README.md)
+[> Home](../README.md)  |  [> Architecture Decision Records](README.md) |  [< Prev](001-Use-K8s-with-containerize-microservice-architecture-style.md)  |  [Next >](003-Hosting-Platform-On-Prem.md)
 
 ---
 
-# Use API Gateway in self-hosted mode
+# 002 - Use API Gateway in self-hosted mode
 Date: 2024-02-22
 
 ## Status
@@ -31,4 +31,4 @@ Given the requirement for integrating with EHR systems securely is via secure HT
 
 ---
 
-[> Home](../README.md)    [> ADRs](README.md)
+[> Home](../README.md)  |  [> Architecture Decision Records](README.md) |  [< Prev](001-Use-K8s-with-containerize-microservice-architecture-style.md)  |  [Next >](003-Hosting-Platform-On-Prem.md)
