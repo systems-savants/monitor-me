@@ -1,8 +1,8 @@
-[> Home](../README.md)    [> ADRs](README.md)
+[> Home](../README.md)  |  [> Architecture Decision Records](README.md) |  [< Prev](005-Telemetry-Observability-with-Elastic.md)  |  [Next >](007-Deployment-Strategy.md)
 
 ---
 
-# Layered approach to security
+# 006 - Layered approach to security
 
 Date: 2024-02-22
 
@@ -36,4 +36,4 @@ We decided to implement and apply a layered approach to security.
 
 ---
 
-[> Home](../README.md)    [> ADRs](README.md)
+[> Home](../README.md)  |  [> Architecture Decision Records](README.md) |  [< Prev](005-Telemetry-Observability-with-Elastic.md)  |  [Next >](007-Deployment-Strategy.md)
