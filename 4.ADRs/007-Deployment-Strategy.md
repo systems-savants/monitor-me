@@ -18,7 +18,7 @@ We decided to go with AWS EKS on-premises installation (via AWS Outpost Servers)
 
 Second it increases application portability and for microservices: Containerized applications are an excellent fit for the microservice architecture because we can deploy and scale containers individually. 
 
-The setup of AWS EKS is setup with high availability and scalability in mind. 
+The setup of AWS Elastic Kubernetes Service (EKS) is setup with high availability and scalability in mind. 
 
 ## Consequences
 AWS EKS allows you to deploy, scale, and manage containerized applications in a regulated and automated manner.Simply put, Kubernetes is a container orchestrator. There is a downside to running Kubernetes on-premises.Do-It-Yourself (DIY), or self-managed, Kubernetes is known for its steep learning curve and operational complexity.
