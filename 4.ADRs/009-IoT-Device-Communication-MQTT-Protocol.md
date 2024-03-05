@@ -24,7 +24,7 @@ Each vital sign will have its own topic and the corresponding microservice will 
 
 **Positive:**
 
-- Enterprise grade ,high availibility and ability to deploy via Kubernates
+- Enterprise grade, high availibility, and ability to deploy via Kubernetes
 
 ---
 
