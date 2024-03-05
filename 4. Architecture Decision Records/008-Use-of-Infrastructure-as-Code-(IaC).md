@@ -11,7 +11,7 @@ Date: 2024-02-22
 Accepted
 
 ## Context
-Infrastructure deployment get complex and repeatable and time consuming and  boring it gets more error prone in the traditional imperative way, is prone to oversights and errors that can end with hogging most of server resources  and while other application are starved for server resources.Hunting down a small deviation from the design, such as having accidentally added a public IP to a machine, which can spelled disaster. 
+Infrastructure deployment get complex and repeatable and time consuming and  boring it gets more error prone in the traditional imperative way, is prone to oversights and errors that can end with hogging most of server resources  and while other application are starved for server resources. Hunting down a small deviation from the design, such as having accidentally added a public IP to a machine, which can spell disaster. 
 
 we can make good use of infrastructure as code languages and tool assisted generators to create infrastcuce and deployment more reliableThese declarative specifications describe the desired state in favour of the steps to reach such a state. Infrastructure as code is a way to script the declarative specification using a Domain Specific Language or a General Programming Language.
 
