@@ -96,48 +96,48 @@ The following are a bedrock of architecture characteristics. They may not affect
 - Maintainability
 - Simplicity or observability
 
-![Architectural Characteristics](../assets/images/Architectural-characteristics-WS.png)
+![Architectural Characteristics](assets/images/Architectural-characteristics-WS.png)
 
 ### Capacity Planning
 
-![CapacityPlanning](../assets/images/CapacityPlanningData.png)
+![CapacityPlanning](assets/images/CapacityPlanningData.png)
 
 ## Architecture Style Analysis & Selection
 
 The above characteristics are highlighted below in green, with data integrity, above, not included in the matrix below. Data integrity will be a key architecture characteristic of the [data store selected](DataStore.md), along with the interface to this data store.
 
-![architectural-styles](../assets/images/architectural-styles-MonitorMe.png)
+![architectural-styles](assets/images/architectural-styles-MonitorMe.png)
 
 
 *Both Microservices and Event Driven architecture options have trade-offs, so we decided to go with a commbination of both microservices and event driven.*
 
-## 4. [Architecture Decision Records (ADRs)(/4.%20Architecture%20Decision%20Records/README.md) 
+[4. Architecture Decision Records (ADRs)](/4.%20Architecture%20Decision%20Records/README.md) 
 
-## 5. [Proposed Solution] (3.%20Architecture%20Analysis/README.md) 
+[5. Proposed Solution](3.%20Architecture%20Analysis/README.md) 
 
 ### Nurse Station Dashboard
+
 **Nurse Station Dashboard View**
 ![Nurse Station Dashboard View](assets/images/Dashboard.webp)
 
 ### Medical Professional Mobile App View
+
 **Medical Professional Mobile App View**
 ![Medical Professional Mobile App View](assets/images/MobileApp.webp)
 
-###High-Level Architecture Diagram using the C4 Model
+### High-Level Architecture Diagram using the C4 Model
 
-### Context Diagram (Level 1 - top level)
-
-**Simplified Context Diagram:**
+**Simplified Context Diagram (C1)**
 
 ![MonitorMe_C4_model-C1-ContextDiagram](assets/Diagrams/MonitorMe_C4_model-C1-ContextDiagram.png)
 
-### Container Diagram (Level 2)
+### Container Diagram (C2)
 
 **Simplified Container Diagram:**
 
 ![MonitorMe_C4_model-C2-Container-Simplified](../assets/Diagrams/MonitorMe_C4_model-C2-Container-Simplified.png)
 
-**(Microservices) Expanded Containter Diagram:**
+**(Microservices) Expanded Containter Diagram (C2) **
 
 ![MonitorMe_C4_model-C2-Container-Expanded](assets/Diagrams/MonitorMe_C4_model-C2-Container-Expanded.png)
 
