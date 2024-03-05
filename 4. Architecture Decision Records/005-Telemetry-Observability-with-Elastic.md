@@ -1,8 +1,8 @@
-[> Home](../README.md)    [> ADRs](README.md)
+[> Home](../README.md)  |  [> Architecture Decision Records](README.md) |  [< Prev](004-System-Design-Approach.md)  |  [Next >](006-Layered-approach-to-security.md)
 
 ---
 
-# Telemetry and Observability With Elastic and Kibana
+# 005 - Telemetry and Observability With Elastic and Kibana
 
 Date: 2024-02-22
 
@@ -27,4 +27,4 @@ Identify vulnerabilities and issues, predict performance, and optimize configura
 - Maintain SLA/SLO for high-availability, resiliency, fault-tolerance, etc.
 
 
-[> Home](../README.md)    [> ADRs](README.md)
+[> Home](../README.md)  |  [> Architecture Decision Records](README.md) |  [< Prev](004-System-Design-Approach.md)  |  [Next >](006-Layered-approach-to-security.md)
