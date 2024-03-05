@@ -1,4 +1,4 @@
-[> Home](../README.md)  |  [Next >](1.1_StayHealthy.md)
+[> Home](../README.md)  |  [Next >](1.1 StayHealthy.md)
 
 ---
 
@@ -11,4 +11,4 @@
 
 ------
 
-[> Home](../README.md)  |  [Next >](1.1_StayHealthy.md)
+[> Home](../README.md)  |  [Next >](1.1 StayHealthy.md)
