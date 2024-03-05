@@ -19,7 +19,6 @@ Here's our [five-minute video presentation](https://www.linkedin.com/in/vishalga
 
 ## Solution Structure
 
-
 [Problem Background](1.ProblemBackground/README.md)
 
 - [Business Goals, Drivers & Requirements](1.ProblemBackground/BusinessGoalsDriversAndRequirements.md)
