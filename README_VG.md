@@ -478,11 +478,11 @@ The above matrix gives us two candidates for our architecture, which need furthe
 
 ## 5.1 Nurse Station Dashboard
 **Nurse Station Dashboard View**
-![Nurse Station Dashboard View](../assets/images/Dashboard.webp)
+![Nurse Station Dashboard View](assets/images/Dashboard.webp)
 
 ## 5.2 Medical Professional Mobile App View
 **Medical Professional Mobile App View**
-![Medical Professional Mobile App View](../assets/images/MobileApp.webp)
+![Medical Professional Mobile App View](assets/images/MobileApp.webp)
 
 ## 5.3 High-Level Architecture Diagram using the C4 Model
 
@@ -490,7 +490,7 @@ The above matrix gives us two candidates for our architecture, which need furthe
 
 **Simplified Context Diagram:**
 
-![MonitorMe_C4_model-C1-ContextDiagram](../assets/Diagrams/MonitorMe_C4_model-C1-ContextDiagram.png)
+![MonitorMe_C4_model-C1-ContextDiagram](assets/Diagrams/MonitorMe_C4_model-C1-ContextDiagram.png)
 
 ## Container Diagram (Level 2)
 
