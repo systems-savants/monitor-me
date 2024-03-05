@@ -1,5 +1,4 @@
-[> Home](../README.md)
-[< Prev](../2.SolutionBackground/Roadmap.md)  |  [Next >](001-Use-K8s-with-containerize-microservice-architecture-style.md)
+[> Home](../README.md)  |  [> Architecture Decisions Dir](README.md) |  [< Prev](/3.%20Architecture%20Analysis/3.6.DataStore.md)  |  [Next >](001-Use-K8s-with-containerize-microservice-architecture-style.md)
 
 ---
 
@@ -30,5 +29,4 @@
 
 ------
 
-[> Home](../README.md)
-[< Prev](../2.SolutionBackground/Roadmap.md)  |  [Next >](../3.ViewsAndPerspectives/README.md)
+[> Home](../README.md)  |  [> Architecture Decisions Dir](README.md) |  [< Prev](/3.%20Architecture%20Analysis/3.6.DataStore.md)  |  [Next >](001-Use-K8s-with-containerize-microservice-architecture-style.md)
