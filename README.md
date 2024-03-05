@@ -128,15 +128,12 @@ The above characteristics are highlighted below in green, with data integrity, a
 ![Medical Professional Mobile App View](assets/images/MobileApp.webp)
 
 
-#### High-Level Architecture Diagram using the C4 Model
+### High-Level Architecture Diagram using the C4 Model
 
 **Simplified Context Diagram (C1)**
-
 ![MonitorMe_C4_model-C1-ContextDiagram](assets/Diagrams/MonitorMe_C4_model-C1-ContextDiagram.png)
 
 ### Container Diagram (C2)
-
-**Simplified Container Diagram:**
 ![MonitorMe_C4_model-C2-Container-Simplified](assets/Diagrams/MonitorMe_C4_model-C2-Container-Simplified.png)
 
 **(Microservices) Expanded Container Diagram (C2):**
@@ -144,9 +141,7 @@ The above characteristics are highlighted below in green, with data integrity, a
 
 
 ### Deployment Diagram [Hybrid/Private Cloud using On-premises AWS Outposts Servers]
-
 ![Deployment/Infrastructure Architecture](assets/Diagrams/MonitorMe_Deployment_Diagram.png)
-
 
 
 ## Resources <a href='#' id='resources'></a>
