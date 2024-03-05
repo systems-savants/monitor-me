@@ -16,10 +16,6 @@ Welcome to our entry to the O'Reilly Winter 2024 Architectural Katas. The aim of
 
 ## Solution Structure
 
-[Clarifications](Clarifications.md)
-
-[Glossary](Glossary.md)
-
 
 [Problem Background](1.ProblemBackground/README.md)
 
