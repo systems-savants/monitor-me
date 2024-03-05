@@ -1,8 +1,8 @@
-[> Home](../README.md)    [> ADRs](README.md)
+[> Home](../README.md)  |  [> Architecture Decision Records](README.md) |  [< Prev](007-Deployment-Strategy.md)  |  [Next >](009-IoT-Device-Communication-MQTT-Protocol.md)
 
 ---
 
-# Use of Infrastructure as Code (IaC)
+# 008 - Use of Infrastructure as Code (IaC)
 
 Date: 2024-02-22
 
@@ -45,4 +45,4 @@ Incorrect policies set on the provisioning role (the role that executes the IaC)
 
 ---
 
-[> Home](../README.md)    [> ADRs](README.md)
+[> Home](../README.md)  |  [> Architecture Decision Records](README.md) |  [< Prev](007-Deployment-Strategy.md)  |  [Next >](009-IoT-Device-Communication-MQTT-Protocol.md)
