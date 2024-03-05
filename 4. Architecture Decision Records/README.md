@@ -13,9 +13,9 @@
 
 [004 System Design Approach](004-System-Design-Approach.md)
 
-[005 Observability (Monitor Systems and Trace Apps)](005-Telemetry-Observability-with-Elastic.md)
+[005 Telemetry and Observability with Kibana (Monitor Systems and Trace Apps)](005-Telemetry-Observability-with-Elastic.md)
 
-[006 MonitorMe Layered approach to security](007-Layered-approach-to-security.md)
+[006 Layered approach to security](007-Layered-approach-to-security.md)
 
 [007 Deployment Strategy](008-Deployment-Strategy.md)
 
