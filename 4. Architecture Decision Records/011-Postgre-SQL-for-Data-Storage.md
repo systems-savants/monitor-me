@@ -1,4 +1,4 @@
-[> Home](../README.md)  |  [> Architecture Decision Records](README.md) |  [< Prev](010-Interoperability.md)  |  [Next >](./5.%20Proposed%20Solution/README.md)
+[> Home](../README.md)  |  [> Architecture Decision Records](README.md) |  [< Prev](010-Interoperability.md)  |  [Next >](../5.%20Proposed%20Solution/README.md)
 
 ---
 
