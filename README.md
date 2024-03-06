@@ -41,7 +41,7 @@ Here's our [five-minute video presentation](https://www.linkedin.com/in/vishalga
   001-Use-K8s-with-containerize-microservice-architecture-style
   002-Use-API-Gateway-in-self-hosted-mode
   003-Hosting-Platform-On-Prem
-  004-System-Approach
+  004-System-Design-Approach
   005-Telemetry-Observability-with-Elastic
   006-Layered-approach-to-security
   007-Deployment-Strategy
