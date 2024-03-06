@@ -1,4 +1,4 @@
-[> Home](../README.md)  |  [> Architecture Decision Records](README.md) |  [< Prev](010-Interoperability.md)  |  [Next >](011-Postgre-SQL-for-Data-Storage.md)
+[> Home](../README.md)  |  [> Architecture Decision Records](README.md) |  [< Prev](010-Interoperability.md)  |  [Next >](./5.%20Proposed%20Solution/README.md)
 
 ---
 
@@ -35,4 +35,4 @@ Maintainability may be more compared to NoSQL database options like MongoDB.
 Horizontal scalability limited
 
 
-[> Home](../README.md)  |  [> Architecture Decision Records](README.md) |  [< Prev](010-Interoperability.md)  |  [Next >](011-Postgre-SQL-for-Data-Storage.md)
+[> Home](../README.md)  |  [> Architecture Decision Records](README.md) |  [< Prev](010-Interoperability.md)  |  [Next >](./5.%20Proposed%20Solution/README.md)
