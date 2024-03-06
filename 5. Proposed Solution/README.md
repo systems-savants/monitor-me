@@ -2,6 +2,8 @@
 
 ---
 
+## 5. Proposed Solution
+
 [5.1 High-Level Architecture Diagram](5.1.ArchitectureDiagram.md)
 
 [5.2 Deployment Diagram](5.2.DeploymentDiagram.md)
