@@ -80,7 +80,7 @@ Actors, Actions, and Components
 
 #### Selected Architecture Characteristics
 
-| Top 3 | Characteristic               | Source                                                       |
+| Top 3 | Driving Characteristics      | Source                                                       |
 | ----- | ---------------------------- | ------------------------------------------------------------ |
 | Y     | Interoperability/Integration | Integration of patient's vital sign devices with MonitorMe (analyzing streaming data), and with MyMedicalData. |
 |       | Data Integrity               | Vital sign data analyzed and recorded through MonitorMe must be as accurate as possible as the human lives are at stake. |
