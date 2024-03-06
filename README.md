@@ -50,10 +50,10 @@ Here's our [five-minute video presentation](https://www.linkedin.com/in/vishalga
   010-Interoperability
   011-Postgre-SQL-for-Data-Storage
 5. Solution Overview
-  5.1 Nurse Station Dashboard UI View
-  5.2 Medical Professional Mobile APP UI View
-  5.3 High-Level Architecture
-  5.4 Deployment Architecture
+  5.1 High-Level Architecture
+  5.2 Deployment Architecture
+  5.3 Nurse Station Dashboard UI View
+  5.4 Medical Professional Mobile APP UI View
 
 ```
 
@@ -121,20 +121,12 @@ The above characteristics are highlighted below in green, with data integrity, a
 [5. Proposed Solution](3.%20Architecture%20Analysis/README.md) 
 
 
-**Nurse Station Dashboard View**
-![Nurse Station Dashboard View](assets/images/Dashboard.webp)
-
-
-**Medical Professional Mobile App View**
-![Medical Professional Mobile App View](assets/images/MobileApp.webp)
-
-
 ### High-Level Architecture Diagram using the C4 Model
 
 **Context Diagram (C1)**
 ![MonitorMe_C4_model-C1-ContextDiagram](assets/Diagrams/MonitorMe_C4_model-C1-ContextDiagram.png)
 
-**Container Diagram (C1)**
+**Container Diagram (C2)**
 ![MonitorMe_C4_model-C2-Container-Simplified](assets/Diagrams/MonitorMe_C4_model-C2-Container-Simplified.png)
 
 **(Microservices Expanded) Container Diagram (C2):**
@@ -143,6 +135,13 @@ The above characteristics are highlighted below in green, with data integrity, a
 
 ### Deployment Diagram [Hybrid/Private Cloud using On-premises AWS Outposts Servers]
 ![Deployment/Infrastructure Architecture](assets/Diagrams/MonitorMe_Deployment_Diagram.png)
+
+**Nurse Station Dashboard View**
+![Nurse Station Dashboard View](assets/images/Dashboard.webp)
+
+
+**Medical Professional Mobile App View**
+![Medical Professional Mobile App View](assets/images/MobileApp.webp)
 
 
 ## Resources <a href='#' id='resources'></a>
