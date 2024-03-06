@@ -14,7 +14,7 @@ Here's our [five-minute video presentation](https://www.linkedin.com/in/vishalga
 ## Members
 - Gibran Castillo [[LinkedIn](https://www.linkedin.com/in/gibran-castillo/)]
 - Vishal Gamji [[LinkedIn](https://www.linkedin.com/in/vishalgamji/)]
-- Subodh Gupta [[LinkedIn](https://www.linkedin.com/in/pending/)]
+- Subodh Gupta [[LinkedIn](https://www.linkedin.com/in/subodh-gupta-792b9010a/)]
 - Harshada Kandalgaonkar [[LinkedIn](https://www.linkedin.com/in/harshada-kandalgaonkar/)]
 
 
