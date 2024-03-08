@@ -14,7 +14,7 @@
 [5.4 Medical Professional UI View](5.4.PhysicianMobileAppUI.md)
 
 
-<!-- # Architecture Solution Story video presentation -->
+## Architecture Solution Story video presentation
 
 [![Architecture Solution Story video presentation](https://img.youtube.com/vi/vP2wVbwkYJA/mqdefault.jpg)](https://www.youtube.com/watch?v=vP2wVbwkYJA)
 ---
