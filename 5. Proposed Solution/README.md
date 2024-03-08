@@ -16,7 +16,7 @@
 
 <!-- [Architecture Solution Story video presentation](../assets/videos/architecture_solution_story_5minutes.mp4) -->
 # Architecture Solution Story video presentation
-https://github.com/systems-savants/monitor-me/blob/main/assets/videos/architecture_solution_story_5minutes.mp4
+
 ---
 
 [> Home](../README.md)  |  [< Prev](/4.%20Architecture%20Decision%20Records/011-Postgre-SQL-for-Data-Storage.md)  |  [Next >](5.1.ArchitectureDiagram.md)
