@@ -8,6 +8,8 @@ Welcome to our entry for the the O'Reilly Winter 2024 Architectural Katas. We, t
 
 Here's our [five-minute video presentation](https://www.youtube.com/watch?v=vP2wVbwkYJA) for the O'Reilly Architectural Kata.
 
+Here's our [five-minute video presentation](assets/videos/architecture_solution_story_5minutes.mp4) 
+
 
 <img src="assets/images/syst_savants_logo.png" alt="The Systems Savants logo" style="zoom:50%;" height="250" width="250" />
 
